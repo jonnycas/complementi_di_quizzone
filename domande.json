@@ -10,7 +10,7 @@
         "giusta": "100 milioni"
     },
     "2": {
-        "domanda": "Com'\u00e8 l'operatore del filtro di gabor per filtraggio delle impronte",
+        "domanda": "Com\u2019\u00e8 l\u2019operatore del filtro di gabor per filtraggio delle impronte",
         "risposte": [
             "Coseno",
             "Esponenziale decrescente",
@@ -23,6 +23,7 @@
         "domanda": "Come si calcola la distanza di Hamming se hai 2 iridi A e B con maschere mA e mB?",
         "risposte": [
             "A xor mA/xor",
+            "A * B",
             "Nessuna delle precedenti"
         ],
         "giusta": "Nessuna delle precedenti"
@@ -49,16 +50,17 @@
     "6": {
         "domanda": "Cosa fa il max pooling",
         "risposte": [
-            "Riduce dimensionalit\u00e0 delle immagini tra uno strato e l'altro",
+            "Riduce dimensionalit\u00e0 delle immagini tra uno strato e l\u2019altro",
+            "Aumenta la dimensionalit\u00e0 delle immagini tra uno strato e l\u2019altro",
             "Nessuna delle precedenti"
         ],
-        "giusta": "Riduce dimensionalit\u00e0 delle immagini tra uno strato e l'altro"
+        "giusta": "Riduce dimensionalit\u00e0 delle immagini tra uno strato e l\u2019altro"
     },
     "7": {
         "domanda": "Per cosa potrebbe essere usato un sistema biometrico basato su reti neurali",
         "risposte": [
             "Soft biometrics per et\u00e0",
-            "Qualit\u00e0 dell'iride",
+            "Qualit\u00e0 dell\u2019iride",
             "Classificazione impronte",
             "Tutte le precedenti"
         ],
@@ -121,6 +123,7 @@
         "domanda": "Quando fai data collection a livello biometrico rispetto alla privacy utente",
         "risposte": [
             "Non incide direttamente",
+            "Ha conseguenze trascurabili sulla privacy",
             "Incide sulla privacy"
         ],
         "giusta": "Incide sulla privacy"
@@ -162,7 +165,9 @@
     "19": {
         "domanda": "Hai DET e ROC, puoi dire che",
         "risposte": [
-            "ROC=1-DET"
+            "ROC=1-DET",
+            "ROC=DET",
+            "ROC e DET non sono correlati"
         ],
         "giusta": "ROC=1-DET"
     },
@@ -176,7 +181,7 @@
         "giusta": "Inferenza statistica"
     },
     "21": {
-        "domanda": "Se hai un'illuminazione improvvisa che difetto hai su CMS",
+        "domanda": "Se hai un\u2019illuminazione improvvisa che difetto hai su CMS",
         "risposte": [
             "Spatial aliasing",
             "Jello effect",
@@ -205,14 +210,19 @@
     "24": {
         "domanda": "Zoom ottico 10X, sensore 10Mpx e camera 100x100x100 qual \u00e8 il costo per farla",
         "risposte": [
-            "Pi\u00f9 di 200 euro"
+            "Pi\u00f9 di 200 euro",
+            "Circa 100 euro",
+            "Massimo 200 euro",
+            "Non ci sono stime verosimili"
         ],
         "giusta": "Pi\u00f9 di 200 euro"
     },
     "25": {
         "domanda": "I 10 bit per pixel rispetto agli 8 bit per pixel cosa permette",
         "risposte": [
-            "Distinguere rumore e filtrarlo meglio"
+            "Distinguere rumore e filtrarlo meglio",
+            "Non forniscono particolari vantaggi",
+            "Rendono difficile distinguere e filtrare il rumore"
         ],
         "giusta": "Distinguere rumore e filtrarlo meglio"
     },
@@ -238,6 +248,8 @@
         "domanda": "Con sensore 8 bit per pixel, 3 canali, quanti colori rappresenti",
         "risposte": [
             "Solo 256",
+            "Solo 24",
+            "Solo 10 milioni",
             "Solo 16,7 milioni"
         ],
         "giusta": "Solo 16,7 milioni"
@@ -256,6 +268,8 @@
         "domanda": "Reti neurali deep e speech recognition, stanno diventando efficaci",
         "risposte": [
             "Falso",
+            "Solo le reti neurali",
+            "Solo speech recognition",
             "Vero"
         ],
         "giusta": "Vero"
@@ -264,6 +278,8 @@
         "domanda": "Quando guardi impronte digitali e arrivi a un punto in cui un pixel \u00e8 0 e gli altri 1 (0=nero,1=bianco)",
         "risposte": [
             "Biforcazione",
+            "Whorl",
+            "Incipient ridge",
             "Fine riga"
         ],
         "giusta": "Fine riga"
@@ -271,15 +287,18 @@
     "32": {
         "domanda": "A che livello agisce fingercode",
         "risposte": [
-            "Livello 1"
+            "Livello 1",
+            "Livello 2",
+            "Livello 3",
+            "Su pi\u00f9 di un livello"
         ],
         "giusta": "Livello 1"
     },
     "33": {
         "domanda": "Grey scale extraction",
         "risposte": [
-            "Boh altro",
-            "immagini binarie",
+            "Nessuna delle precedenti",
+            "Immagini binarie",
             "Immagini bianco e nero"
         ],
         "giusta": "Immagini bianco e nero"
@@ -294,10 +313,11 @@
         "giusta": "Tutte le precedenti"
     },
     "35": {
-        "domanda": "CMC",
+        "domanda": "La Cumulative Match Characteristic CMC(R) permette di trovare gli R individui pi\u00c3\u00b9 simili a k e viene",
         "risposte": [
             "Applicata per autenticazione",
-            "Applicata per identificazione"
+            "Applicata per identificazione",
+            "Applicata per entrambe"
         ],
         "giusta": "Applicata per identificazione"
     },
@@ -313,7 +333,8 @@
         "domanda": "Reti neurali che imparano da esempi sono",
         "risposte": [
             "Deduttive",
-            "Induttive"
+            "Induttive",
+            "Trasduttive ma mai induttive"
         ],
         "giusta": "Induttive"
     },
@@ -321,6 +342,7 @@
         "domanda": "Esistono sistemi multimodali integrati su scala nazionale",
         "risposte": [
             "Falso",
+            "Solo multibiometrici",
             "Vero"
         ],
         "giusta": "Vero"
@@ -329,7 +351,7 @@
         "domanda": "La teoria del rasoio di Occam",
         "risposte": [
             "\u00c8 una teoria classica che non pu\u00f2 essere applicata in biometria",
-            "\u00c8 una teoria che non c'entra un ca",
+            "\u00c8 una teoria che dice di analizzare prime gli elementi complessi per ridurre le alternativ",
             "\u00c8 una teoria classica che pu\u00f2 essere applicata ancora in biometria"
         ],
         "giusta": "\u00c8 una teoria classica che pu\u00f2 essere applicata ancora in biometria"
@@ -337,7 +359,8 @@
     "40": {
         "domanda": "Dispositivo con lenti asferiche",
         "risposte": [
-            "Costa di pi\u00f9",
+            "Costa di pi\u00f9 rispetto a un sistema multi-lente",
+            "Non mostra grande differenza di prezzo rispetto un sistema multi-lente",
             "\u00c8 pi\u00f9 economico rispetto a un sistema multi-lente"
         ],
         "giusta": "\u00c8 pi\u00f9 economico rispetto a un sistema multi-lente"
@@ -347,7 +370,8 @@
         "risposte": [
             "Brandeggi per guidare utente",
             "Per controllo accesso aeroporto",
-            "Entrambe le precedenti"
+            "Entrambe le precedenti",
+            "Nessuna delle precedenti."
         ],
         "giusta": "Entrambe le precedenti"
     },
@@ -357,9 +381,9 @@
             "Tipicamente hardware",
             "Tipicamente trasformazioni",
             "Nessuna delle precedenti",
-            "Tipicamente key binding e key qualcosa"
+            "Tipicamente key binding e key generation"
         ],
-        "giusta": "Tipicamente key binding e key qualcosa"
+        "giusta": "Tipicamente key binding e key generation"
     },
     "43": {
         "domanda": "In un filtraggio adattativo contestuale una parte del filtro controlla la porzione di immagine in esame e adatta i parametri della maschera in base alla situazione locale",
@@ -390,7 +414,8 @@
     "46": {
         "domanda": "Uno dei filtraggi adattativi maggiormente applicati per le impronte digitali sono i filtri di Gabor",
         "risposte": [
-            "Falso",
+            "Falso, i filtri di Gabor non servono a quello scopo",
+            "Falso, sono quelli di Moir\u00e8",
             "Vero"
         ],
         "giusta": "Vero"
@@ -398,8 +423,8 @@
     "47": {
         "domanda": "Le feature di ridge counting sono considerate",
         "risposte": [
-            "Livello 2",
-            "Livello 3",
+            "Di livello 2",
+            "Di livello 3",
             "Di livello 1"
         ],
         "giusta": "Di livello 1"
@@ -479,20 +504,21 @@
         "domanda": "Per la biometria del volto e delle mani, il numero di bit/pixel non \u00e8 praticamente influente",
         "risposte": [
             "Vero, le differenze valutabili dal punto di vista biometrico non dipendono da questo parametro",
-            "Falso, un numero maggiore rende possibile l'uso di algoritmi di image processing pi\u00f9 avanzati"
+            "Falso, un numero maggiore rende possibile l\u2019uso di algoritmi di image processing pi\u00f9 avanzati"
         ],
-        "giusta": "Falso, un numero maggiore rende possibile l'uso di algoritmi di image processing pi\u00f9 avanzati"
+        "giusta": "Falso, un numero maggiore rende possibile l\u2019uso di algoritmi di image processing pi\u00f9 avanzati"
     },
     "57": {
         "domanda": "Sensori CMOS e CCD sono praticamente equivalenti in campo biometrico dal punto di vista della qualit\u00e0 delle immagini",
         "risposte": [
-            "Falso",
+            "Falso, la differenza di prestazioni \u00e8 ancora estremamente rilevante",
+            "Vero, non si mostrano particolari differenze",
             "Falso anche se recenti innovazioni in termini di velocit\u00e0 di trasmissione interna e sensibilit\u00e0 dei sensori stanno riducendo le principali differenze"
         ],
         "giusta": "Falso anche se recenti innovazioni in termini di velocit\u00e0 di trasmissione interna e sensibilit\u00e0 dei sensori stanno riducendo le principali differenze"
     },
     "58": {
-        "domanda": "Nei sensori CMOS il problema dell'aliasing",
+        "domanda": "Nei sensori CMOS il problema dell\u2019aliasing",
         "risposte": [
             "Riguarda caratteristiche solo spaziali",
             "Riguarda caratteristiche solo temporali",
@@ -513,12 +539,12 @@
         "domanda": "\u00c8 possibile impiegare sensori biometrici per immagini dotati di filtro polarizzatore integrato",
         "risposte": [
             "Falso, deve essere sempre posto al di fuori del sensore",
-            "Vero, esistono sensori"
+            "vero, esistono sensori con il polarizzatore integrato usabili per applicazioni biometriche"
         ],
-        "giusta": "Vero, esistono sensori"
+        "giusta": "vero, esistono sensori con il polarizzatore integrato usabili per applicazioni biometriche"
     },
     "61": {
-        "domanda": "La biometria del volto non pu\u00f2 essere realizzata attraverso filtri ottici che permettono l'analisi su bande ottiche diverse",
+        "domanda": "La biometria del volto non pu\u00f2 essere realizzata attraverso filtri ottici che permettono l\u2019analisi su bande ottiche diverse",
         "risposte": [
             "Vero, perch\u00e9 le caratteristiche biometriche del volto si possono apprezzare solo su variazioni di toni di grigio su un solo canale estratto",
             "Falso, analizzando immagini acquisite con bande diverse si possono apprezzare caratteristiche biometriche utili"
@@ -526,17 +552,17 @@
         "giusta": "Falso, analizzando immagini acquisite con bande diverse si possono apprezzare caratteristiche biometriche utili"
     },
     "62": {
-        "domanda": "L'acquisizione multispettrale si pu\u00f2 applicare con le impronte digitali",
+        "domanda": "L\u2019acquisizione multispettrale si pu\u00f2 applicare con le impronte digitali",
         "risposte": [
             "Falso, \u00e8 usata tipicamente con volti e in sorveglianza ma non con le impronte",
-            "Falso, nel caso delle impronte si pu\u00f2 usare solo un'immagine a un canale proveniente dal sensore per la natura stessa della tecnologia adottata",
+            "Falso, nel caso delle impronte si pu\u00f2 usare solo un\u2019immagine a un canale proveniente dal sensore per la natura stessa della tecnologia adottata",
             "Vero, in sensori avanzati permette una scansione migliorata rispetto alle tecniche monocromatiche anche in condizioni non ottimali del dito",
             "Vero, in sensori avanzati permette una scansione migliorata rispetto alle tecniche monocromatiche anche in condizioni non ottimali del dito e rilevare dettagli al di sotto della superficie di esso"
         ],
         "giusta": "Vero, in sensori avanzati permette una scansione migliorata rispetto alle tecniche monocromatiche anche in condizioni non ottimali del dito e rilevare dettagli al di sotto della superficie di esso"
     },
     "63": {
-        "domanda": "I sistemi per il controllo dell'impronta su smart card (match on card) sono ancora prototipati e non presenti sul mercato",
+        "domanda": "I sistemi per il controllo dell\u2019impronta su smart card (match on card) sono ancora prototipati e non presenti sul mercato",
         "risposte": [
             "Vero",
             "Falso"
@@ -547,7 +573,7 @@
         "domanda": "Il conteggio delle persone in ambienti indoor pu\u00f2 essere eseguito con sistemi in tecnologia 3D",
         "risposte": [
             "Ma \u00e8 fortemente dipendente dalle condizioni ambientali quali differenze di illuminazione",
-            "Ma \u00e8 fortemente dipendente dalle condizioni del flusso di persone che attraversano l'ambiente controllato",
+            "Ma \u00e8 fortemente dipendente dalle condizioni del flusso di persone che attraversano l\u2019ambiente controllato",
             "Nessuna delle precedenti",
             "Che riescono a gestire importanti differenze illuminotecniche e flussi particolarmente complessi o intensi di persone"
         ],
@@ -559,7 +585,7 @@
             "Falso perch\u00e9 la capacit\u00e0 dei sistemi ottici non \u00e8 in grado di essere applicata in applicazioni biometriche",
             "Falso perch\u00e9 la capacit\u00e0 computazionale sul drone non \u00e8 adeguata",
             "Falso per il continuo cambiamento del punto di vista dovuto al movimento li rende non impiegabili",
-            "Vero tipicamente il riconoscimento dell'impronta per la particolare compattezza del sensore usato",
+            "Vero tipicamente il riconoscimento dell\u2019impronta per la particolare compattezza del sensore usato",
             "Vero specialmente per la sorveglianza e applicazioni similari"
         ],
         "giusta": "Vero specialmente per la sorveglianza e applicazioni similari"
@@ -575,16 +601,17 @@
         "giusta": "Nessuna delle precedenti"
     },
     "67": {
-        "domanda": "Nelle tecniche di protezione della privacy del template mediante elaborazione nel dominio crittato il server conosce l'esito del valore di matching ma non il risultato della comparazione biometrica",
+        "domanda": "Nelle tecniche di protezione della privacy del template mediante elaborazione nel dominio crittato il server conosce l\u2019esito del valore di matching ma non il risultato della comparazione biometrica",
         "risposte": [
-            "Il server non conosce l'esito del valore di matching ma conosce il risultato della comparazione biometrica",
+            "il server conosce l\u2019esito ma non il risultato della comparazione",
+            "Il server non conosce l\u2019esito del valore di matching ma conosce il risultato della comparazione biometrica",
             "Non sono applicabili in campo biometrico per la complessit\u00e0 della funzione di matching richiesta per avere una crittazione sicura",
-            "Il server non conosce l'esito del valore di matching e non conosce il risultato della comparazione biometrica"
+            "Il server non conosce l\u2019esito del valore di matching e non conosce il risultato della comparazione biometrica"
         ],
-        "giusta": "Il server non conosce l'esito del valore di matching e non conosce il risultato della comparazione biometrica"
+        "giusta": "Il server non conosce l\u2019esito del valore di matching e non conosce il risultato della comparazione biometrica"
     },
     "68": {
-        "domanda": "L'iride \u00e8 un dato che per le sue propriet\u00e0 biometriche",
+        "domanda": "L\u2019iride \u00e8 un dato che per le sue propriet\u00e0 biometriche",
         "risposte": [
             "Non \u00e8 applicabile per via della lunghezza del template che lo realizza",
             "Non \u00e8 applicabile per via della presenza dei bit di mascheratura necessari al suo funzionamento",
@@ -596,7 +623,7 @@
         "domanda": "La protezione della privacy a livello di template nelle applicazioni biometriche",
         "risposte": [
             "\u00c8 un buon metodo per migliorare la privacy, usabile e fattibile",
-            "Pu\u00f2 abbassare l'accuratezza del rispettivo sistema biometrico tradizionale",
+            "Pu\u00f2 abbassare l\u2019accuratezza del rispettivo sistema biometrico tradizionale",
             "Non pu\u00f2 essere applicata a tutti i tipi di template biometrico",
             "Tutte le precedenti"
         ],
@@ -613,7 +640,7 @@
     "71": {
         "domanda": "Con un sensore di acquisizione a 3 canali x 8bit per pixel",
         "risposte": [
-            "si possono ottenere solo 256 colori (questo \u00e8 di un singolo canale!)",
+            "si possono ottenere solo 256 colori.",
             "non sono utilizzabili nei sistemi biometrici perch\u00e9 hanno un numero limitato di colori",
             "non sono utilizzabili nei sistemi biometrici perch\u00e9 hanno risoluzione troppo limitata",
             "solo 16,7 milioni di colori"
@@ -647,14 +674,14 @@
         "risposte": [
             "Diminuisce la luce entrante sul sensore",
             "Aumenta il campo di fuoco",
-            "Riduce la deformazione sferica dell'immagine",
+            "Riduce la deformazione sferica dell\u2019immagine",
             "Tutte le precedenti",
             "Nessuna delle precedenti"
         ],
         "giusta": "Tutte le precedenti"
     },
     "75": {
-        "domanda": "Lo zoom ottico ottiene la magnificazione dell'immagine mediante l'uso di pi\u00f9 lenti che modificano la lunghezza focale ma mantenendo il fuoco sul sensore",
+        "domanda": "Lo zoom ottico ottiene la magnificazione dell\u2019immagine mediante l\u2019uso di pi\u00f9 lenti che modificano la lunghezza focale ma mantenendo il fuoco sul sensore",
         "risposte": [
             "Falso",
             "Vero"
@@ -702,12 +729,12 @@
     "80": {
         "domanda": "Le tecniche EEG (Electroencephalography)",
         "risposte": [
-            "Vero",
-            "Falso",
-            "Tutte le precedenti",
-            "Nessuna delle precedenti."
+            "Utilizzano l\u2019attivit\u00e0 elettrica del cervello per identificare o autenticare un individuo.",
+            "Registrano i segnali celebrali mediante elettrodi posizionati sullo scalpo",
+            "Tutte le precedenti.",
+            "Possono essere usate in sistemi critici data l\u2019elevata sicurezza"
         ],
-        "giusta": "Nessuna delle precedenti."
+        "giusta": "Tutte le precedenti."
     },
     "81": {
         "domanda": "Il controllo biometrico di due immagini del volto della stessa persona acquisite a 1 anno di distanza rappresenta un confronto",
@@ -730,7 +757,7 @@
         "giusta": "Vero, peso, consumi e caratteristiche di acquisizione del sensore (in termini di risoluzione e frequenza di campionamento) sono adeguati a questi impieghi"
     },
     "83": {
-        "domanda": "Nell'ambito delle tecniche di deeplearning applicate in biometria, la data augmentation",
+        "domanda": "Nell\u2019ambito delle tecniche di deeplearning applicate in biometria, la data augmentation",
         "risposte": [
             "Vero",
             "Falso",
@@ -740,7 +767,7 @@
         "giusta": "Tutte le precedenti"
     },
     "84": {
-        "domanda": "Nel caso di un matcher biometrico per l'autenticazione creato mediante tecniche di apprendimento automatico ed intelligenza artificiale",
+        "domanda": "Nel caso di un matcher biometrico per l\u2019autenticazione creato mediante tecniche di apprendimento automatico ed intelligenza artificiale",
         "risposte": [
             "Vero",
             "Falso",
@@ -761,7 +788,7 @@
         "giusta": "Pu\u00f2 creare una delle due situazioni precedenti in base a come sono distribuiti i dati nelle partizioni"
     },
     "86": {
-        "domanda": "Nell'ambito della valutazione delle performance dei sistemi biometrici la procedura corretta di valutazione degli errori prevede:",
+        "domanda": "Nell\u2019ambito della valutazione delle performance dei sistemi biometrici la procedura corretta di valutazione degli errori prevede:",
         "risposte": [
             "Falso",
             "Tutte le precedenti",
@@ -771,7 +798,7 @@
         "giusta": "Scegliere una o entrambe le opzioni precedenti in base alla disponibilit\u00e0 dei dati o dei modelli e del caso applicativo"
     },
     "87": {
-        "domanda": "Nell'ambito del machine learning applicato alla biometria, i metodi di riduzione della complessit\u00e0 degli ingressi",
+        "domanda": "Nell\u2019ambito del machine learning applicato alla biometria, i metodi di riduzione della complessit\u00e0 degli ingressi",
         "risposte": [
             "Falso",
             "Tutte le precedenti",
@@ -826,8 +853,6 @@
         "domanda": "Le reti di tipo deep learning sono efficacemente impiegate nella speech recognition",
         "risposte": [
             "Falso",
-            "Tutte le precedenti",
-            "Nessuna delle precedenti.",
             "Vero"
         ],
         "giusta": "Vero"
@@ -835,8 +860,7 @@
     "93": {
         "domanda": "I metodi di imaging di High Dynamic Range sono particolarmente utili",
         "risposte": [
-            "Vero",
-            "Falso",
+            "Non si utilizzano",
             "Nessuna delle precedenti.",
             "In applicazioni di videosorveglianza"
         ],
@@ -845,8 +869,8 @@
     "94": {
         "domanda": "In applicazioni di sorveglianza per ridurre il campo visivo simile a quello umano binoculare",
         "risposte": [
-            "Falso",
-            "Tutte le precedenti",
+            "Occorre impiegare un sistema ottico di circa 80 gradi di Field of view",
+            "Occorre impiegare un sistema ottico di circa 100 gradi di Field of view",
             "Nessuna delle precedenti.",
             "Occorre impiegare un sistema ottico di circa 180 gradi di Field of view"
         ],
@@ -856,8 +880,6 @@
         "domanda": "Un dispositivo di conversione analogico-digitale \u00e8 sempre incluso dei sensori per immagini usati in biometria",
         "risposte": [
             "Falso",
-            "Tutte le precedenti",
-            "Nessuna delle precedenti.",
             "Vero"
         ],
         "giusta": "Vero"
@@ -865,8 +887,8 @@
     "96": {
         "domanda": "\u00c8 possibile correggere gli effetti del Rolling Shutter impiegato nei sistemi CMOS",
         "risposte": [
-            "Vero",
-            "Falso",
+            "in nessun modo, \u00c3\u00a8 un problema non risolubile",
+            "in via algoritmica mediante riduzione del rumore infra-pixel",
             "Tutte le precedenti",
             "Nessuna delle precedenti.",
             "In via algoritmica mediante stima della velocit\u00e0 e riduzione delle distorsioni"
@@ -899,6 +921,7 @@
             "\u00c8 irrealizzabile a causa delle dimensioni richieste",
             "La sua magnificazione ottica non \u00e8 sufficiente per applicazioni biometriche",
             "La sua risoluzione non \u00e8 sufficiente per applicazioni biometriche",
+            "\u00c8 realizzabile e la sua fascia di prezzo \u00e8 circa 100 euro",
             "\u00c8 realizzabile e la sua fascia di prezzo \u00e8 circa 200 euro"
         ],
         "giusta": "\u00c8 realizzabile e la sua fascia di prezzo \u00e8 circa 200 euro"
@@ -909,16 +932,15 @@
             "Si possono ottenere 256 colori",
             "Si possono ottenere 512 colori",
             "Si possono ottenere 4096 colori",
+            "Si possono ottenere solo 10 milioni di colori",
             "Si possono ottenere solo 16,7 milioni di colori"
         ],
         "giusta": "Si possono ottenere solo 16,7 milioni di colori"
     },
     "101": {
-        "domanda": "La rappresentazione di un pixel di un'immagine per la biometria non pu\u00f2 essere a 8 bit (256 livelli di grigio) in quanto troppo compatta",
+        "domanda": "La rappresentazione di un pixel di un\u2019immagine per la biometria non pu\u00f2 essere a 8 bit (256 livelli di grigio) in quanto troppo compatta",
         "risposte": [
             "Vero",
-            "Nessuna delle precedenti.",
-            "Tutte le precedenti",
             "Falso"
         ],
         "giusta": "Falso"
@@ -928,7 +950,7 @@
         "risposte": [
             "Necessita di una focale notevolmente inferiore rispetto a un normale sistema di videosorveglianza",
             "Nessuna delle precedenti.",
-            "Tutte le precedenti",
+            "Necessita di una focale decisamente maggiore di un normale sistema di videosorveglianza",
             "Necessita di una focale uguale o leggermente maggiore di un normale sistema di videosorveglianza"
         ],
         "giusta": "Necessita di una focale uguale o leggermente maggiore di un normale sistema di videosorveglianza"
@@ -944,7 +966,7 @@
         "giusta": "Entrambe le precedenti"
     },
     "104": {
-        "domanda": "\u00c8 possibile selezionare il numero di bit per il tono di grigio di un singolo pixel di un'immagine di un sensore",
+        "domanda": "\u00c8 possibile selezionare il numero di bit per il tono di grigio di un singolo pixel di un\u2019immagine di un sensore",
         "risposte": [
             "Falso",
             "Nessuna delle precedenti.",
@@ -959,9 +981,9 @@
             "Di videosorveglianza",
             "Di stampa 3D",
             "Nessuna delle precedenti.",
-            "In medicina per l'imaging biomedico"
+            "In medicina per l\u2019imaging biomedico"
         ],
-        "giusta": "In medicina per l'imaging biomedico"
+        "giusta": "In medicina per l\u2019imaging biomedico"
     },
     "106": {
         "domanda": "Il sistema AFIS italiano realizza le funzioni di identificazione",
@@ -977,14 +999,12 @@
         "domanda": "Un sistema AFIS nazionale tipicamente contiene immagini iridee",
         "risposte": [
             "Vero",
-            "Nessuna delle precedenti.",
-            "Tutte le precedenti",
             "Falso"
         ],
         "giusta": "Falso"
     },
     "108": {
-        "domanda": "Una convoluzione fra l'immagine I() e il kernel k() utile a realizzare un filtraggio della immagine viene rappresentata come",
+        "domanda": "Una convoluzione fra l\u2019immagine I() e il kernel k() utile a realizzare un filtraggio della immagine viene rappresentata come",
         "risposte": [
             "O(x,y) = I(x,y) + k(x,y)",
             "O(x,y) = I(x,y) / k(x,y)",
@@ -994,7 +1014,7 @@
         "giusta": "O(x,y) = I(x,y) * k(x,y)"
     },
     "109": {
-        "domanda": "La tecnica per l'estrazione di feature per le impronte digitali chiamata Fingercoding \u00e8 una tecnica",
+        "domanda": "La tecnica per l\u2019estrazione di feature per le impronte digitali chiamata Fingercoding \u00e8 una tecnica",
         "risposte": [
             "Di livello 2",
             "Di livello 3",
@@ -1004,7 +1024,7 @@
         "giusta": "Di livello 1"
     },
     "110": {
-        "domanda": "Se nell'intorno di un punto di esame di un'immagine binarizzata e scheletrizzata (con creste in nero) di una impronta digitale composto da 8 pixel si ha 1 pixel a zero e tutti gli altri a 1 \u00e8 maggiormente probabile che ci si trovi in corrispondenza di",
+        "domanda": "Se nell\u2019intorno di un punto di esame di un\u2019immagine binarizzata e scheletrizzata (con creste in nero) di una impronta digitale composto da 8 pixel si ha 1 pixel a zero e tutti gli altri a 1 \u00e8 maggiormente probabile che ci si trovi in corrispondenza di",
         "risposte": [
             "Un punto di minima curvatura",
             "Un punto di biforcazione",
@@ -1017,14 +1037,12 @@
         "domanda": "Esistono sistemi integrati biometrici multimodali su scala nazionale",
         "risposte": [
             "Falso",
-            "Nessuna delle precedenti.",
-            "Tutte le precedenti",
             "Vero"
         ],
         "giusta": "Vero"
     },
     "112": {
-        "domanda": "In un filtraggio adattivo contestuale, una parte del filtro stima parametri locali da porzioni dell'immagine in esame e adatta i parametri della maschera in base ai parametri stimati",
+        "domanda": "In un filtraggio adattivo contestuale, una parte del filtro stima parametri locali da porzioni dell\u2019immagine in esame e adatta i parametri della maschera in base ai parametri stimati",
         "risposte": [
             "Falso",
             "Nessuna delle precedenti.",
@@ -1034,15 +1052,15 @@
         "giusta": "Vero"
     },
     "113": {
-        "domanda": "\u00c8 possibile eseguire un riconoscimento tramite l'iride anche da immagini nel visibile se",
+        "domanda": "\u00c8 possibile eseguire un riconoscimento tramite l\u2019iride anche da immagini nel visibile se",
         "risposte": [
-            "L'iride \u00e8 sufficientemente scura da presentare caratteristiche biometriche",
-            "L'iride \u00e8 cos\u00ec chiara da non presentare caratteristiche biometriche",
-            "L'iride non presenta differenze di colore",
+            "L\u2019iride \u00e8 sufficientemente scura da presentare caratteristiche biometriche",
+            "L\u2019iride \u00e8 cos\u00ec chiara da non presentare caratteristiche biometriche",
+            "L\u2019iride non presenta differenze di colore",
             "Nessuna delle precedenti.",
-            "L'iride non \u00e8 cos\u00ec scura da non presentare nessuna caratteristica biometrica"
+            "L\u2019iride non \u00e8 cos\u00ec scura da non presentare nessuna caratteristica biometrica"
         ],
-        "giusta": "L'iride non \u00e8 cos\u00ec scura da non presentare nessuna caratteristica biometrica"
+        "giusta": "L\u2019iride non \u00e8 cos\u00ec scura da non presentare nessuna caratteristica biometrica"
     },
     "114": {
         "domanda": "Un sistema AFIS moderno riesce a raggiungere",
@@ -1058,14 +1076,14 @@
         "domanda": "Completare la seguente frase. Il conteggio delle persone in ambienti indoor pu\u00f2 essere eseguito con sistemi in tecnologia 3D",
         "risposte": [
             "Che operano solo in condizioni di luce ideali",
-            "Con un'accuratezza limitata alle condizioni di illuminazione",
+            "Con un\u2019accuratezza limitata alle condizioni di illuminazione",
             "Nessuna delle precedenti.",
             "Che riescono a gestire sia importanti differenze illuminotecniche e flussi particolarmente complessi o intensi di persone"
         ],
         "giusta": "Che riescono a gestire sia importanti differenze illuminotecniche e flussi particolarmente complessi o intensi di persone"
     },
     "116": {
-        "domanda": "I sistemi Match on Card per l'impronta includono interessanti caratteristiche fra le quali",
+        "domanda": "I sistemi Match on Card per l\u2019impronta includono interessanti caratteristiche fra le quali",
         "risposte": [
             "La memorizzazione del template direttamente sulla smart card",
             "La comparazione del template direttamente sulla smart card",
@@ -1075,7 +1093,7 @@
         "giusta": "Tutte le precedenti"
     },
     "117": {
-        "domanda": "Completare la seguente frase. I sistemi per il riconoscimento dell'iride in ambienti indoor",
+        "domanda": "Completare la seguente frase. I sistemi per il riconoscimento dell\u2019iride in ambienti indoor",
         "risposte": [
             "Richiedono condizioni di illuminazione particolarmente intense",
             "Operano solo in condizioni di luce ideali",
@@ -1087,7 +1105,7 @@
     "118": {
         "domanda": "Quali tecniche avanzate per il miglioramento delle prestazioni di sistemi biometrici possono essere efficacemente utilizzate in applicazioni biometriche",
         "risposte": [
-            "L'apprendimento automatico (machine learning)",
+            "L\u2019apprendimento automatico (machine learning)",
             "La fusione multimodale",
             "Nessuna delle precedenti.",
             "Entrambe"
@@ -1108,16 +1126,14 @@
         "domanda": "La primitiva biometrica di Fingerprint Indexing \u00e8 considerabile come un sistema di classificazione",
         "risposte": [
             "Falso",
-            "Nessuna delle precedenti.",
-            "Tutte le precedenti",
             "Vero"
         ],
         "giusta": "Vero"
     },
     "121": {
-        "domanda": "Per effettuare template selection nelle applicazioni per l'iride pu\u00f2/possono essere utili",
+        "domanda": "Per effettuare template selection nelle applicazioni per l\u2019iride pu\u00f2/possono essere utili",
         "risposte": [
-            "Richiede l'intervento esclusivo di un esperto",
+            "Richiede l\u2019intervento esclusivo di un esperto",
             "Si basa solo su criteri automatici",
             "Nessuna delle precedenti.",
             "Pu\u00f2 essere effettuata anche in modo manuale"
@@ -1128,7 +1144,7 @@
         "domanda": "Considerando la curva di Decision Error Tradeoff e la curva Receiver Operating Characteristic si pu\u00f2 affermare",
         "risposte": [
             "Sono sempre discordanti",
-            "Forniscono informazioni esclusive l'una dell'altra",
+            "Forniscono informazioni esclusive l\u2019una dell\u2019altra",
             "Nessuna delle precedenti.",
             "Sono equivalenti dal punto di vista delle informazioni utilizzabili per il sistema biometrico"
         ],
@@ -1145,7 +1161,7 @@
         "giusta": "Si applicano tecniche supervisionate"
     },
     "124": {
-        "domanda": "Nell'ambito dei modelli di deeplearning usati in biometria, il modulo di Max Pooling",
+        "domanda": "Nell\u2019ambito dei modelli di deeplearning usati in biometria, il modulo di Max Pooling",
         "risposte": [
             "Aumenta la dimensione delle immagini da elaborare negli strati intermedi di un modello CNN",
             "Non ha alcun effetto sulla dimensione delle immagini",
@@ -1158,14 +1174,12 @@
         "domanda": "In un modello di deeplearning CNN usato in applicazioni biometriche \u00e8 tipico che negli strati finali si crei, dalle uscite dello strato precedente un unico vettore da elaborare negli ultimi strati della rete",
         "risposte": [
             "Vero",
-            "Falso",
-            "Tutte le precedenti",
-            "Nessuna delle precedenti."
+            "Falso"
         ],
-        "giusta": "Falso"
+        "giusta": "Vero"
     },
     "126": {
-        "domanda": "Nell'ambito dei modelli di deeplearning usati in biometria, quali dei seguenti modulo possono annullare il gradiente nella funzione di ottimizzazione dei pesi e quindi produrre una semplificazione dell'apprendimento?",
+        "domanda": "Nell\u2019ambito dei modelli di deeplearning usati in biometria, quali dei seguenti modulo possono annullare il gradiente nella funzione di ottimizzazione dei pesi e quindi produrre una semplificazione dell\u2019apprendimento?",
         "risposte": [
             "Un Sigmoid",
             "Un Tanh",
@@ -1185,7 +1199,7 @@
         "giusta": "Tutte le precedenti"
     },
     "128": {
-        "domanda": "La presenza di vibrazioni in un'applicazione biometrica",
+        "domanda": "La presenza di vibrazioni in un\u2019applicazione biometrica",
         "risposte": [
             "Non influisce sulla scelta del sensore",
             "Richiede sensori speciali",
@@ -1215,7 +1229,7 @@
         "giusta": "Falso, anche se recenti innovazioni in termini di velocit\u00e0 di trasmissione interna e sensibilit\u00e0 dei sensori stanno riducendo le principali differenze"
     },
     "131": {
-        "domanda": "Un sistema per il riconoscimento dell'iride",
+        "domanda": "Un sistema per il riconoscimento dell\u2019iride",
         "risposte": [
             "Necessita di un sistema autofocus lento ma preciso",
             "Non richiede un sistema autofocus",
@@ -1265,7 +1279,7 @@
         "giusta": "Nessuna delle precedenti"
     },
     "136": {
-        "domanda": "Le feature biometriche estratte dalla voce per fare identificazione sono estratte tipicamente esaminando l'energia del segnale in particolari bande dello spettro sonoro",
+        "domanda": "Le feature biometriche estratte dalla voce per fare identificazione sono estratte tipicamente esaminando l\u2019energia del segnale in particolari bande dello spettro sonoro",
         "risposte": [
             "Falso",
             "Nessuna delle precedenti.",
@@ -1279,7 +1293,7 @@
         "risposte": [
             "Vero",
             "Nessuna delle precedenti.",
-            "Tutte le precedenti",
+            "Falso, sono meno di 750.000",
             "Falso"
         ],
         "giusta": "Falso"
@@ -1288,28 +1302,27 @@
         "domanda": "I filtraggi adattivi maggiormente applicati per le impronte digitali sono i filtri di Moir\u00e9",
         "risposte": [
             "Vero",
-            "Nessuna delle precedenti.",
+            "Vero, assieme ai filtri di Gabor",
             "Tutte le precedenti",
             "Falso"
         ],
         "giusta": "Falso"
     },
     "139": {
-        "domanda": "Il riconoscimento tramite l'iride produrre seri problemi di privacy per via della elevata accuratezza e la velocit\u00e0 con il quale pu\u00f2 essere eseguito il matching fra due template",
+        "domanda": "Il riconoscimento tramite l\u2019iride produrre seri problemi di privacy per via della elevata accuratezza e la velocit\u00e0 con il quale pu\u00f2 essere eseguito il matching fra due template",
         "risposte": [
             "Falso",
-            "Nessuna delle precedenti.",
-            "Tutte le precedenti",
+            "Falso, il matching con il template \u00c3\u00a8 complesso",
             "Vero"
         ],
         "giusta": "Vero"
     },
     "140": {
-        "domanda": "La tecnologia di riconoscimento biometrico basata sull'iride",
+        "domanda": "La tecnologia di riconoscimento biometrico basata sull\u2019iride",
         "risposte": [
             "\u00c8 attualmente la meno utilizzata in campo biometrico",
             "Si basa solo su dati fisiologici",
-            "Tutte le precedenti",
+            "Si basa solo su dati comportamentali",
             "Nessuna delle precedenti"
         ],
         "giusta": "Nessuna delle precedenti"
@@ -1335,11 +1348,11 @@
         "giusta": "Entrambe le precedenti"
     },
     "143": {
-        "domanda": "\u00c8 possibile creare un sistema biometrico per l'iride completo di tutte le parti ottiche miniaturizzato in pochi millimetri",
+        "domanda": "\u00c8 possibile creare un sistema biometrico per l\u2019iride completo di tutte le parti ottiche miniaturizzato in pochi millimetri",
         "risposte": [
             "Falso",
-            "Nessuna delle precedenti.",
-            "Tutte le precedenti",
+            "Falso, ma u00a8 possibile per il volto",
+            "Vero, \u00a8 chiamato occhio elettronico",
             "Vero"
         ],
         "giusta": "Vero"
@@ -1348,7 +1361,7 @@
         "domanda": "La funzione di \u201chigh dynamic range\u201d in un sistema di visione serve per aumentare via software la risoluzione del sensore stesso",
         "risposte": [
             "Vero",
-            "Nessuna delle precedenti.",
+            "Vero, ma solo fino ad una certa soglia",
             "Solo la prima \u00e8 corretta",
             "Falso"
         ],
@@ -1389,7 +1402,7 @@
         "risposte": [
             "Digitale",
             "Entrambe sono equivalenti",
-            "Nessuna delle precedenti.",
+            "Dipende dalla situazione",
             "Ottica"
         ],
         "giusta": "Ottica"
@@ -1398,7 +1411,7 @@
         "domanda": "Differenza di luce improvvisa nella scena acquisita possono provocare problemi di acquisizione nei sensori CMOS temporal aliasing",
         "risposte": [
             "Falso",
-            "Nessuna delle precedenti.",
+            "Falso, \u00c3\u00a8 un problema dello spatial aliasing",
             "Solo la prima \u00e8 corretta",
             "Vero"
         ],
@@ -1409,16 +1422,16 @@
         "risposte": [
             "\u00c8 irrilevante in applicazioni biometriche",
             "Rappresenta la velocit\u00e0 di acquisizione delle immagini",
-            "Solo la prima e l'ultima sono corrette",
+            "Solo la prima e l\u2019ultima sono corrette",
             "Viene impiegato per analizzare i movimenti degli oggetti e di regioni delle immagini"
         ],
         "giusta": "Viene impiegato per analizzare i movimenti degli oggetti e di regioni delle immagini"
     },
     "151": {
-        "domanda": "La valutazione della stima dell'errore del sistema biometrico a partire da valori ottenuti di matching tra immagini di impostori e genuini",
+        "domanda": "La valutazione della stima dell\u2019errore del sistema biometrico a partire da valori ottenuti di matching tra immagini di impostori e genuini",
         "risposte": [
             "\u00c8 un processo completamente deterministico",
-            "Richiede l'analisi dei soli impostori",
+            "Richiede l\u2019analisi dei soli impostori",
             "Non \u00e8 necessaria ai fini della valutazione del sistema",
             "Rappresenta una approssimazione di inferenza statistica"
         ],
@@ -1437,7 +1450,7 @@
     "153": {
         "domanda": "La detezione automatica delle micro-espressioni",
         "risposte": [
-            "Richiede l'analisi di immagini ad altissima risoluzione",
+            "Richiede l\u2019analisi di immagini ad altissima risoluzione",
             "\u00c8 impossibile da realizzare",
             "Rappresenta una tecnica consolidata in psicologia forense",
             "Nessuna delle precedenti"
@@ -1465,7 +1478,7 @@
         "giusta": "Verde"
     },
     "156": {
-        "domanda": "Tenendo conto della definizione impiegata nel documento 'Best Practices in Testing and Reporting Performance of Biometric Devices' esaminato a lezione, quale \u00e8 la sequenza pi\u00f9 corretta di esecuzione delle strategie di valutazione?",
+        "domanda": "Tenendo conto della definizione impiegata nel documento \u2019Best Practices in Testing and Reporting Performance of Biometric Devices\u2019 esaminato a lezione, quale \u00e8 la sequenza pi\u00f9 corretta di esecuzione delle strategie di valutazione?",
         "risposte": [
             "Operational --> Technology --> Scenario",
             "Technology --> Operational --> Scenario",
@@ -1492,14 +1505,14 @@
             "Nessuna delle altre opzioni, infatti non \u00e8 possibile realizzare la detezione di un deepfake da un singolo frame",
             "Transizione di colore sulle interfacce",
             "Analisi degli accessori e presenza di eventuali artefatti",
-            "Tutte le altre opzioni (tranne 'Nessuna delle altre opzioni')"
+            "Tutte le altre opzioni (tranne \u2019Nessuna delle altre opzioni\u2019)"
         ],
-        "giusta": "Tutte le altre opzioni (tranne 'Nessuna delle altre opzioni')"
+        "giusta": "Tutte le altre opzioni (tranne \u2019Nessuna delle altre opzioni\u2019)"
     },
     "159": {
-        "domanda": "Si considerino questi due esempi di tecniche di difesa contro i deepfake: \n- Valutazione del flusso ottico del movimento delle labbra tra due fotogrammi nei quali \u00e8 stato richiesto all'utente di parlare \n- Pronunciare una sequenza di numeri dati e casuali durante il video di riconoscimento\nEsse rappresentano:",
+        "domanda": "Si considerino questi due esempi di tecniche di difesa contro i deepfake: \n- Valutazione del flusso ottico del movimento delle labbra tra due fotogrammi nei quali \u00e8 stato richiesto all\u2019utente di parlare \n- Pronunciare una sequenza di numeri dati e casuali durante il video di riconoscimento\nEsse rappresentano:",
         "risposte": [
-            "Tutte le altre opzioni (tranne 'Nessuna delle altre opzioni')",
+            "Tutte le altre opzioni (tranne \u2019Nessuna delle altre opzioni\u2019)",
             "Applicazione della gestalt tipicamente umana ma realizzata in questo caso con tecniche di intelligenza artificiale",
             "Nessuna delle precedenti opzioni",
             "Esempi di tecniche di pletismografia senza contatto",
@@ -1551,20 +1564,25 @@
         "domanda": "A livello I delle impronte digitale cosa si pu\u00f2 osservare?",
         "risposte": [
             "Il flusso delle linee(arch,loop,whorl),punti singolari (core,delta),forma impronta, orientamento,frequenza delle righe dell\u2019immagine.",
-            "Il flusso delle linee(arch,loop,whorl) e la forma impronta"
+            "Minutiae, biforcazioni,ridge,etc , fino a 150 mniatue.",
+            "Intra-creste (pori sudorazione) e inter-creste(incipient ridges)"
         ],
         "giusta": "Il flusso delle linee(arch,loop,whorl),punti singolari (core,delta),forma impronta, orientamento,frequenza delle righe dell\u2019immagine."
     },
     "166": {
         "domanda": "A livello II delle impronte digitale cosa si pu\u00f2 osservare?",
         "risposte": [
-            "Minutiae, biforcazioni,ridge,etc , fino a 150 mniatue."
+            "Il flusso delle linee(arch,loop,whorl),punti singolari (core,delta),forma impronta, orientamento,frequenza delle righe dell\u2019immagine.",
+            "Minutiae, biforcazioni,ridge,etc , fino a 150 mniatue.",
+            "Intra-creste (pori sudorazione) e inter-creste(incipient ridges)"
         ],
         "giusta": "Minutiae, biforcazioni,ridge,etc , fino a 150 mniatue."
     },
     "167": {
         "domanda": "A livello III delle impronte digitale cosa si pu\u00f2 osservare?",
         "risposte": [
+            "Il flusso delle linee(arch,loop,whorl),punti singolari (core,delta),forma impronta, orientamento,frequenza delle righe dell\u2019immagine.",
+            "Minutiae, biforcazioni,ridge,etc , fino a 150 mniatue.",
             "Intra-creste (pori sudorazione) e inter-creste(incipient ridges)"
         ],
         "giusta": "Intra-creste (pori sudorazione) e inter-creste(incipient ridges)"
@@ -1572,7 +1590,9 @@
     "168": {
         "domanda": "Quanti DPI occorrono per vedere le caratteristiche del livello III?",
         "risposte": [
-            "1000 DPI."
+            "1000 DPI.",
+            "500 DPI",
+            "100 DPI"
         ],
         "giusta": "1000 DPI."
     },
@@ -1586,7 +1606,10 @@
     "170": {
         "domanda": "Cosa \u00e8 il ridge count?",
         "risposte": [
-            "\u00c8 una misura dei ridge che attraversano una linea immaginaria passante tra due miniatue."
+            "\u00c8 una misura dei ridge che attraversano una linea immaginaria passante tra due miniatue.",
+            "una feature di livello II",
+            "L\u2019inverso della distanza media tra 2 picchi consecutivi",
+            "Tutte le risposte sono corrette"
         ],
         "giusta": "\u00c8 una misura dei ridge che attraversano una linea immaginaria passante tra due miniatue."
     },
@@ -1603,6 +1626,7 @@
         "domanda": "Cosa \u00e8 la ridge frequency?",
         "risposte": [
             "L\u2019inverso della distanza media tra 2 picchi consecutivi",
+            "\u00c8 una misura dei ridge che attraversano una linea immaginaria passante tra due miniatue.",
             "La distanza media tra 2 picchi consecutivi"
         ],
         "giusta": "L\u2019inverso della distanza media tra 2 picchi consecutivi"
@@ -1611,7 +1635,8 @@
         "domanda": "Quanti DPI servono per acquisire le impronte digitali con AFIS",
         "risposte": [
             "500 DPI",
-            "1000 DPI"
+            "1000 DPI",
+            "100 DPI"
         ],
         "giusta": "500 DPI"
     },
@@ -1619,7 +1644,8 @@
         "domanda": "Quale \u00e8 la migliore luce per acquisire l\u2019iride?",
         "risposte": [
             "Luce IR",
-            "Luce not IR"
+            "Luce not IR",
+            "Luce verde"
         ],
         "giusta": "Luce IR"
     },
@@ -1627,7 +1653,8 @@
         "domanda": "Per catturare i dettagli dell\u2019iride, con quanti pixel il sistema deve poterlo acquisire?",
         "risposte": [
             "Almeno 70 pixel",
-            "Almeno 35 pixel"
+            "Almeno 35 pixel",
+            "Almeno 50 pixel"
         ],
         "giusta": "Almeno 70 pixel"
     },
@@ -1635,7 +1662,8 @@
         "domanda": "Quali sensori si usano per acquisire l\u2019iride?",
         "risposte": [
             "CDC monocromatici",
-            "CCD monocromatici"
+            "CCD monocromatici",
+            "Entrambe le precedenti"
         ],
         "giusta": "CCD monocromatici"
     },
@@ -1643,6 +1671,8 @@
         "domanda": "Quale \u00e8 la banda di illuminazione migliore per l\u2019iride?",
         "risposte": [
             "70-80mm",
+            "70-90mm",
+            "700-800mm",
             "700-900 mm"
         ],
         "giusta": "700-900 mm"
@@ -1650,14 +1680,18 @@
     "178": {
         "domanda": "Che tipo di telecamere si usano per l\u2019iride?",
         "risposte": [
-            "Telecamere con ottiche variabili"
+            "Telecamere con ottiche variabili",
+            "Telecamere con ottiche fisse",
+            "Entrambe le precedenti"
         ],
         "giusta": "Telecamere con ottiche variabili"
     },
     "179": {
         "domanda": "Quanti colori pu\u00f2 riconoscere l\u2019occhio umano?",
         "risposte": [
-            "10 milioni di colori"
+            "10 milioni di colori",
+            "16.7 milioni di colori",
+            "1 milione di colori, meno se sono daltonici"
         ],
         "giusta": "10 milioni di colori"
     },
@@ -1665,6 +1699,7 @@
         "domanda": "Gli algoritmi di enhancement (aumento), esaltano le differenze di rumore?",
         "risposte": [
             "Vero, aumentano il rumore sull\u2019immagine (di solito si passa da 8 bit a 10 bit)",
+            "Vero, diminuiscono il rumore sull\u2019immagine (di solito si passa da 10 bit a 8 bit)",
             "Falso"
         ],
         "giusta": "Vero, aumentano il rumore sull\u2019immagine (di solito si passa da 8 bit a 10 bit)"
@@ -1673,6 +1708,7 @@
         "domanda": "Con 8 bit/ grigio quali tratti posso catturare?",
         "risposte": [
             "Tratti pi\u00f9 macroscopici, perch\u00e9 si ha una minore risoluzione",
+            "Tratti pi\u00f9 macroscopici, perch\u00e9 si ha una maggiore risoluzione",
             "Tratti pi\u00f9 macroscopici ma omogenei perch\u00e9 ho meno colori"
         ],
         "giusta": "Tratti pi\u00f9 macroscopici, perch\u00e9 si ha una minore risoluzione"
@@ -1680,20 +1716,26 @@
     "182": {
         "domanda": "Quanti bit occorrrono per avere una vein pattern?",
         "risposte": [
-            "10 bit"
+            "10 bit",
+            "8 bit",
+            "16 bit"
         ],
         "giusta": "10 bit"
     },
     "183": {
         "domanda": "Il sensore CCD, Charge-Coupled Device, (dispositivo di carica accoppiata), che tipo di funzionamento hanno?",
         "risposte": [
-            "Ha funzionamento simile ad un fotodiodo. La carica elettrica generata sul sensore dai fotoni viene trasferita alla circuiteria tramite pochi nodi di uscita in analogico"
+            "Ha funzionamento simile ad un fotodiodo. La carica elettrica generata sul sensore dai fotoni viene trasferita alla circuiteria tramite pochi nodi di uscita in analogico",
+            "Entrambe le precedenti",
+            "Ogni singolo fotodiodo \u00e8 accoppiato ad un convertitore, riduttore di rumore, e circuiti di digitalizzazione. Il sistema del CCD permette di gestire meglio Il singolo pixel e produce un rumore pi\u00f9 localizzato (filtrabile meglio)."
         ],
         "giusta": "Ha funzionamento simile ad un fotodiodo. La carica elettrica generata sul sensore dai fotoni viene trasferita alla circuiteria tramite pochi nodi di uscita in analogico"
     },
     "184": {
         "domanda": "Come funziona un sensore CMOS, Complementary Metal-Oxide Semiconductor (Semiconduttore complementare ossido di metallo)?",
         "risposte": [
+            "Ha funzionamento simile ad un fotodiodo. La carica elettrica generata sul sensore dai fotoni viene trasferita alla circuiteria tramite pochi nodi di uscita in analogico",
+            "Entrambe le precedenti",
             "Ogni singolo fotodiodo \u00e8 accoppiato ad un convertitore, riduttore di rumore, e circuiti di digitalizzazione. Il sistema del CMOS permette di gestire meglio Il singolo pixel e produce un rumore pi\u00f9 localizzato (filtrabile meglio). Il trend dei CMOS \u00e8 in costante ascesa. A causa dello scarso fattore di riempimento di CMOS, la fotosensibilit\u00e0 dei sensori CMOS \u00e8 scarsa in condizioni di scarsa illuminazione."
         ],
         "giusta": "Ogni singolo fotodiodo \u00e8 accoppiato ad un convertitore, riduttore di rumore, e circuiti di digitalizzazione. Il sistema del CMOS permette di gestire meglio Il singolo pixel e produce un rumore pi\u00f9 localizzato (filtrabile meglio). Il trend dei CMOS \u00e8 in costante ascesa. A causa dello scarso fattore di riempimento di CMOS, la fotosensibilit\u00e0 dei sensori CMOS \u00e8 scarsa in condizioni di scarsa illuminazione."
@@ -1701,27 +1743,33 @@
     "185": {
         "domanda": "Cosa servono le microlenti sopra il fotodettetore?",
         "risposte": [
-            "Per aumentare la luce in ingresso."
+            "Per aumentare la luce in ingresso.",
+            "Per diminuire la luce in ingresso.",
+            "Nessuna delle precedenti."
         ],
         "giusta": "Per aumentare la luce in ingresso."
     },
     "186": {
         "domanda": "In quale sensore avviene il rolling shutter?",
         "risposte": [
-            "CMOS"
+            "CMOS",
+            "CCD",
+            "Entrambe le precedenti."
         ],
         "giusta": "CMOS"
     },
     "187": {
         "domanda": "In cosa consiste il rolling shutter?",
         "risposte": [
-            "La esposizione avviene non simultaneamente ma riga dopo riga"
+            "La esposizione avviene non simultaneamente ma riga dopo riga",
+            "Si muove il sistema, quindi di conseguenza l\u2019immagine, dando senzazione di movimento simile alla gelatina."
         ],
         "giusta": "La esposizione avviene non simultaneamente ma riga dopo riga"
     },
     "188": {
         "domanda": "In cosa consiste il Wobble (jello effect)?",
         "risposte": [
+            "La esposizione avviene non simultaneamente ma riga dopo riga",
             "Si muove il sistema, quindi di conseguenza l\u2019immagine, dando senzazione di movimento simile alla gelatina."
         ],
         "giusta": "Si muove il sistema, quindi di conseguenza l\u2019immagine, dando senzazione di movimento simile alla gelatina."
@@ -1729,30 +1777,34 @@
     "189": {
         "domanda": "Quando appare il il Wobble (jello effect)?",
         "risposte": [
-            "Appare quando la camera vibra (temporal aliasing)"
+            "Appare quando la camera vibra (temporal aliasing)",
+            "Appare quando la camera vibra (spatial aliasing)"
         ],
         "giusta": "Appare quando la camera vibra (temporal aliasing)"
     },
     "190": {
         "domanda": "Cosa \u00e8 la skew?",
         "risposte": [
-            "La \u201cstorta\u201d, l'immagine si piega in diagonale in una direzione o nell'altra mentre la fotocamera o il soggetto si spostano da un lato all'altro."
+            "La \u201cstorta\u201d, l\u2019immagine si piega in diagonale in una direzione o nell\u2019altra mentre la fotocamera o il soggetto si spostano da un lato all\u2019altro.",
+            "I pixel adiacenti verticalmente vengono campionati in violazione del teorema di campionamento, quando il movimento della videocamera o dell\u2019oggetto \u00e8 troppo rapido"
         ],
-        "giusta": "La \u201cstorta\u201d, l'immagine si piega in diagonale in una direzione o nell'altra mentre la fotocamera o il soggetto si spostano da un lato all'altro."
+        "giusta": "La \u201cstorta\u201d, l\u2019immagine si piega in diagonale in una direzione o nell\u2019altra mentre la fotocamera o il soggetto si spostano da un lato all\u2019altro."
     },
     "191": {
         "domanda": "Cosa \u00e8 lo spatial aliasing?",
         "risposte": [
-            "\u201cAlias spaziale\u201d, I pixel adiacenti verticalmente vengono campionati in violazione del teorema di campionamento, quando il movimento della videocamera o dell'oggetto \u00e8 troppo rapido"
+            "\u201cAlias spaziale\u201d, I pixel adiacenti verticalmente vengono campionati in violazione del teorema di campionamento, quando il movimento della videocamera o dell\u2019oggetto \u00e8 troppo rapido",
+            "Se il flash della fotocamera si attiva solo per una parte del tempo di esposizione, l\u2019illuminazione del flash potrebbe essere presente solo per alcune file di pixel in una determinata cornice \u2022 illuminazione fluorescente, \u2022 effetti strobo, \u2022 fulmini, \u2022 movimento molto veloce / scoppi di luce"
         ],
-        "giusta": "\u201cAlias spaziale\u201d, I pixel adiacenti verticalmente vengono campionati in violazione del teorema di campionamento, quando il movimento della videocamera o dell'oggetto \u00e8 troppo rapido"
+        "giusta": "\u201cAlias spaziale\u201d, I pixel adiacenti verticalmente vengono campionati in violazione del teorema di campionamento, quando il movimento della videocamera o dell\u2019oggetto \u00e8 troppo rapido"
     },
     "192": {
         "domanda": "Cosa \u00e8 il temporal aliasing?",
         "risposte": [
-            "(inclusa l'esposizione parziale): se il flash della fotocamera si attiva solo per una parte del tempo di esposizione, l'illuminazione del flash potrebbe essere presente solo per alcune file di pixel in una determinata cornice \u2022 illuminazione fluorescente, \u2022 effetti strobo, \u2022 fulmini, \u2022 movimento molto veloce / scoppi di luce"
+            "\u201cAlias spaziale\u201d, I pixel adiacenti verticalmente vengono campionati in violazione del teorema di campionamento, quando il movimento della videocamera o dell\u2019oggetto \u00e8 troppo rapido",
+            "(inclusa l\u2019esposizione parziale): se il flash della fotocamera si attiva solo per una parte del tempo di esposizione, l\u2019illuminazione del flash potrebbe essere presente solo per alcune file di pixel in una determinata cornice \u2022 illuminazione fluorescente, \u2022 effetti strobo, \u2022 fulmini, \u2022 movimento molto veloce / scoppi di luce"
         ],
-        "giusta": "(inclusa l'esposizione parziale): se il flash della fotocamera si attiva solo per una parte del tempo di esposizione, l'illuminazione del flash potrebbe essere presente solo per alcune file di pixel in una determinata cornice \u2022 illuminazione fluorescente, \u2022 effetti strobo, \u2022 fulmini, \u2022 movimento molto veloce / scoppi di luce"
+        "giusta": "(inclusa l\u2019esposizione parziale): se il flash della fotocamera si attiva solo per una parte del tempo di esposizione, l\u2019illuminazione del flash potrebbe essere presente solo per alcune file di pixel in una determinata cornice \u2022 illuminazione fluorescente, \u2022 effetti strobo, \u2022 fulmini, \u2022 movimento molto veloce / scoppi di luce"
     },
     "193": {
         "domanda": "L\u2019illuminazione fluorescente causa problemi di temporal aliasing?",
@@ -1765,42 +1817,52 @@
     "194": {
         "domanda": "I sensori ottici standard film frame che misura hanno?",
         "risposte": [
-            "35 mm"
+            "35 mm",
+            "50 mm",
+            "70 mm"
         ],
         "giusta": "35 mm"
     },
     "195": {
         "domanda": "Nel involucro del sensore CMOS, a cosa serve l\u2019elemento piezoeletrico?",
         "risposte": [
-            "Ad eseguire la pulizia."
+            "Ad eseguire la pulizia.",
+            "A stabilizzare le immagini",
+            "Non esiste alcun elemento piezoeletrico"
         ],
         "giusta": "Ad eseguire la pulizia."
     },
     "196": {
         "domanda": "A cosa serve un low pass filtro, chiamato anche anti-aliasing o \u201cblur\u201d(sfocatura)?",
         "risposte": [
-            "Serve per eliminare il problema della sfocatura da moir\u00e9 ci\u00f2 che effettivamente raggiunge il sensore."
+            "Serve per eliminare il problema della sfocatura da moir\u00e9 ci\u00f2 che effettivamente raggiunge il sensore.",
+            "Funziona solitamente come filtro passa basso",
+            "Entrambe le precedenti"
         ],
         "giusta": "Serve per eliminare il problema della sfocatura da moir\u00e9 ci\u00f2 che effettivamente raggiunge il sensore."
     },
     "197": {
         "domanda": "Cosa \u00e8 il Moire pattern?",
         "risposte": [
-            "\u00c8 una sfocatura che si verifica quando una scena o un oggetto che viene fotografato contiene dettagli ripetitivi (come linee, punti, ecc.) Che superano la risoluzione del sensore"
+            "\u00c8 una sfocatura che si verifica quando una scena o un oggetto che viene fotografato contiene dettagli ripetitivi (come linee, punti, ecc.) Che superano la risoluzione del sensore",
+            "Se il flash della fotocamera si attiva solo per una parte del tempo di esposizione, l\u2019illuminazione del flash potrebbe essere presente solo per alcune file di pixel in una determinata cornice \u2022 illuminazione fluorescente, \u2022 effetti strobo, \u2022 fulmini, \u2022 movimento molto veloce / scoppi di luce"
         ],
         "giusta": "\u00c8 una sfocatura che si verifica quando una scena o un oggetto che viene fotografato contiene dettagli ripetitivi (come linee, punti, ecc.) Che superano la risoluzione del sensore"
     },
     "198": {
         "domanda": "A cosa servono i filtri ottici?",
         "risposte": [
-            "trasmettere la luce con particolari propriet\u00e0 come una o pi\u00f9 lunghezza d'onda (colore), una polarizzazione, ne attenua l'intensit\u00e0"
+            "Trasmettere la luce con particolari propriet\u00e0 come una o pi\u00f9 lunghezza d\u2019onda (colore), una polarizzazione, ne attenua l\u2019intensit\u00e0",
+            "Trasmettere la luce con particolari propriet\u00e0 come una o pi\u00f9 lunghezza d\u2019onda (colore), ma non la polarizzazione",
+            "Aumentano intensit\u00e0 della luce"
         ],
-        "giusta": "trasmettere la luce con particolari propriet\u00e0 come una o pi\u00f9 lunghezza d'onda (colore), una polarizzazione, ne attenua l'intensit\u00e0"
+        "giusta": "Trasmettere la luce con particolari propriet\u00e0 come una o pi\u00f9 lunghezza d\u2019onda (colore), una polarizzazione, ne attenua l\u2019intensit\u00e0"
     },
     "199": {
         "domanda": "Attraverso il filtro polarizzatore in una immagine \u00e8 possibile vedere il riflesso?",
         "risposte": [
             "Vero",
+            "Solo in particolari occasioni",
             "Falso"
         ],
         "giusta": "Vero"
@@ -1808,14 +1870,16 @@
     "200": {
         "domanda": "A cosa serve l\u2019uso del filtro polarizzatore in biometria?",
         "risposte": [
-            "L\u2019uso del polarizzatore nelle impronte senza contatto (latenti) permette una migliore vista dei ridge."
+            "L\u2019uso del polarizzatore nelle impronte senza contatto (latenti) permette una migliore vista dei ridge.",
+            "L\u2019uso del polarizzatore nelle impronte senza contatto (latenti) permette il passaggio di diverse bande che ci interessano"
         ],
         "giusta": "L\u2019uso del polarizzatore nelle impronte senza contatto (latenti) permette una migliore vista dei ridge."
     },
     "201": {
         "domanda": "A cosa serve un filtro multi banda?",
         "risposte": [
-            "Con un solo filtro possiamo permettere il passaggio di diverse bande che ci interessano"
+            "Con un solo filtro possiamo permettere il passaggio di diverse bande che ci interessano",
+            "Con un solo filtro possiamo permettere una migliore vista dei ridge."
         ],
         "giusta": "Con un solo filtro possiamo permettere il passaggio di diverse bande che ci interessano"
     },
@@ -1823,6 +1887,7 @@
         "domanda": "I canali RGB possono essere usati come filtri?",
         "risposte": [
             "Vero",
+            "Vero, ma hanno utilit\u00e0 limitata",
             "Falso"
         ],
         "giusta": "Vero"
@@ -1831,6 +1896,7 @@
         "domanda": "Rimuovendo il filtro no IR si ottiene un sensore utile in vicino infrarosso?",
         "risposte": [
             "Vero",
+            "Vero, ma non sempre",
             "Falso"
         ],
         "giusta": "Vero"
@@ -1839,6 +1905,7 @@
         "domanda": "Il filtro cut-off scambiatore IR con attacco obiettivo integrato consente il vero funzionamento diurno / notturno (TDN) con i chipset DPS Pixim?",
         "risposte": [
             "Vero",
+            "Solo notturno",
             "Falso"
         ],
         "giusta": "Vero"
@@ -1854,42 +1921,52 @@
     "206": {
         "domanda": "Sensore di imaging multispettrale fino a che profondit\u00e0 pu\u00f2 scansionare?",
         "risposte": [
-            "4 mm"
+            "4 mm",
+            "3 mm",
+            "5 mm"
         ],
         "giusta": "4 mm"
     },
     "207": {
         "domanda": "A cosa servono le lenti",
         "risposte": [
-            "A mandare sul sensore molta pi\u00f9 luce"
+            "A mandare sul sensore molta pi\u00f9 luce",
+            "A mandare sul sensore molta meno luce",
+            "A regolare la luce mandata sul sensore in positivo e negativo"
         ],
         "giusta": "A mandare sul sensore molta pi\u00f9 luce"
     },
     "208": {
         "domanda": "Cosa \u00e8 la profondit\u00e0 di campo?",
         "risposte": [
-            "Intervallo di distanze dell'oggetto su cui l'immagine \u00e8 sufficientemente ben messa a fuoco, ovvero intervallo per cui il cerchio di sfocatura \u00e8 inferiore alla risoluzione del sensore di imaging."
+            "Intervallo di distanze dell\u2019oggetto su cui l\u2019immagine \u00e8 sufficientemente ben messa a fuoco, ovvero intervallo per cui il cerchio di sfocatura \u00e8 inferiore alla risoluzione del sensore di imaging.",
+            "La profondit\u00e0 dell\u2019area della figura disegnata dalla luce"
         ],
-        "giusta": "Intervallo di distanze dell'oggetto su cui l'immagine \u00e8 sufficientemente ben messa a fuoco, ovvero intervallo per cui il cerchio di sfocatura \u00e8 inferiore alla risoluzione del sensore di imaging."
+        "giusta": "Intervallo di distanze dell\u2019oggetto su cui l\u2019immagine \u00e8 sufficientemente ben messa a fuoco, ovvero intervallo per cui il cerchio di sfocatura \u00e8 inferiore alla risoluzione del sensore di imaging."
     },
     "209": {
         "domanda": "Quando una immagine \u00e8 sufficientemente ben messa a fuoco?",
         "risposte": [
-            "Quando ha una sufficiente profondit\u00e0 di campo"
+            "Quando ha una sufficiente profondit\u00e0 di campo",
+            "Quando i raggi non si incontrano sulla superficie dell\u2019oggetto"
         ],
         "giusta": "Quando ha una sufficiente profondit\u00e0 di campo"
     },
     "210": {
         "domanda": "Quali sono i problemi con le lenti?",
         "risposte": [
-            "Vignetting (vignettatura), abberazzione cromatica, aberrazione sferica."
+            "Vignetting (vignettatura), abberazzione cromatica, aberrazione sferica.",
+            "Aberrazione sferica",
+            "Riducono aberrazione cromatica"
         ],
         "giusta": "Vignetting (vignettatura), abberazzione cromatica, aberrazione sferica."
     },
     "211": {
         "domanda": "Come si pu\u00f2 rimediare all\u2019aberrazione sferica?",
         "risposte": [
-            "Chiudere diaframma, inserire lenti correttive, inserire lenti asferiche."
+            "Chiudere diaframma, inserire lenti correttive, inserire lenti asferiche.",
+            "Esclusivamente grazie a lenti asferiche bombate",
+            "Grazie a lenti asferiche ma principalmente liquide"
         ],
         "giusta": "Chiudere diaframma, inserire lenti correttive, inserire lenti asferiche."
     },
@@ -1903,28 +1980,36 @@
     "213": {
         "domanda": "Con le lenti liquide a che velocit\u00e0 si pu\u00f2 regolare diaframma e magnificazione?",
         "risposte": [
-            "30 FPS"
+            "30 FPS",
+            "50 FPS",
+            "500 DPI"
         ],
         "giusta": "30 FPS"
     },
     "214": {
         "domanda": "Quale \u00e8 il campo di fuoco delle lenti liquide?",
         "risposte": [
-            "5 cm \u2013 infinito"
+            "5 cm \u2013 infinito",
+            "1 m \u2013 infinito",
+            "25 cm \u2013 500 cm"
         ],
         "giusta": "5 cm \u2013 infinito"
     },
     "215": {
         "domanda": "Nel magnificazione a 2 lenti, come avviene la procedura?",
         "risposte": [
-            "l'immagine formata dal primo obiettivo \u00e8 l'oggetto per il secondo obiettivo."
+            "l\u2019immagine formata dal primo obiettivo \u00e8 l\u2019oggetto per il secondo obiettivo.",
+            "l\u2019immagine formata dal primo e dal secondo obiettivo si congiungono nel punto focale",
+            "Non risulta possibile fare magnificazione con un sistema a 2 lenti"
         ],
-        "giusta": "l'immagine formata dal primo obiettivo \u00e8 l'oggetto per il secondo obiettivo."
+        "giusta": "l\u2019immagine formata dal primo obiettivo \u00e8 l\u2019oggetto per il secondo obiettivo."
     },
     "216": {
         "domanda": "Cosa \u00e8 lo zoom?",
         "risposte": [
-            "Una magnificazione Variabile"
+            "Una magnificazione Variabile",
+            "Una magnificazione a due lenti",
+            "Una magnificazione usata solo nel campo della biometria"
         ],
         "giusta": "Una magnificazione Variabile"
     },
@@ -1932,6 +2017,7 @@
         "domanda": "Lo zoom \u00e8 utile in tutte le applicazioni di sicurezza?",
         "risposte": [
             "Vero",
+            "Solo per il riconoscimento di dettagli molto piccoli",
             "Falso"
         ],
         "giusta": "Vero"
@@ -1940,6 +2026,7 @@
         "domanda": "Nello zoom ottico la lunghezza focale pu\u00f2 variare?",
         "risposte": [
             "Vero",
+            "Falso, solo lo zoom digitale",
             "Falso"
         ],
         "giusta": "Vero"
@@ -1948,13 +2035,18 @@
         "domanda": "Lo zoom ottico ingrandisce?",
         "risposte": [
             "Vero",
-            "Falso"
+            "Solo fino al x3",
+            "Falso",
+            "Falso, scala la immagine senza aggiungere informazione"
         ],
         "giusta": "Vero"
     },
     "220": {
         "domanda": "Lo Zoom digitale ingrandisce",
         "risposte": [
+            "Vero",
+            "Solo fino al x3",
+            "Falso",
             "Falso, scala la immagine senza aggiungere informazione"
         ],
         "giusta": "Falso, scala la immagine senza aggiungere informazione"
@@ -1962,35 +2054,45 @@
     "221": {
         "domanda": "Quali sono i parametri per leggere lo zoom?",
         "risposte": [
-            "Escursione focale, Luminosit\u00e0 dell\u2019obbiettivo, fattore di ingrandimento."
+            "Escursione focale, Luminosit\u00e0 dell\u2019obbiettivo, fattore di ingrandimento.",
+            "Fattore di ingrandimento",
+            "Escursione termica"
         ],
         "giusta": "Escursione focale, Luminosit\u00e0 dell\u2019obbiettivo, fattore di ingrandimento."
     },
     "222": {
         "domanda": "Quali sono i parametri di misurazione dell\u2019escursione focale nello zoom?",
         "risposte": [
-            "10-80 mm"
+            "10-80 mm",
+            "20-50 mm",
+            "Oltre i 100 mm"
         ],
         "giusta": "10-80 mm"
     },
     "223": {
         "domanda": "Quali sono i parametri di luminosit\u00e0 dell\u2019obbiettivo nello zoom?",
         "risposte": [
-            "Varia da 1,3 dalla focale di 10 mm a 1,8 di quella da 80 mm"
+            "Varia da 1,3 dalla focale di 10 mm a 1,8 di quella da 80 mm",
+            "Varia da 1 dalla focale di 10 mm a 2 di quella da 80 mm",
+            "Varia da 1,5 dalla focale di 10 mm a 2,1 di quella da 80 mm"
         ],
         "giusta": "Varia da 1,3 dalla focale di 10 mm a 1,8 di quella da 80 mm"
     },
     "224": {
         "domanda": "Quali sono i parametri di ingrandimento nello zoom?",
         "risposte": [
-            "7X, quindi 7 x 10 mm = 70 mm"
+            "7X, quindi 7 x 10 mm = 70 mm",
+            "5X, quindi 5 x 10 mm = 50 mm",
+            "3X, quindi 3 x 10 mm = 30 mm"
         ],
         "giusta": "7X, quindi 7 x 10 mm = 70 mm"
     },
     "225": {
         "domanda": "Fino a quanto possono arrivare le focali di arrivo?",
         "risposte": [
-            "660 mm"
+            "660 mm",
+            "500 mm",
+            "666 mm"
         ],
         "giusta": "660 mm"
     },
@@ -1998,6 +2100,7 @@
         "domanda": "Le lenti liquide possono essere utilizzate nella video sorveglianza?",
         "risposte": [
             "Vero",
+            "Falso, solo quelle sferiche",
             "Falso"
         ],
         "giusta": "Vero"
@@ -2006,6 +2109,7 @@
         "domanda": "Le lenti liquide possono essere utilizzate nella biometria senza contatto?",
         "risposte": [
             "Vero",
+            "Falso, solo quelle sferiche",
             "Falso"
         ],
         "giusta": "Vero"
@@ -2014,28 +2118,35 @@
         "domanda": "Un\u2019obbiettivo per una fotocamera pu\u00f2 contenere fino a 15 elementi?",
         "risposte": [
             "Vero",
-            "Falso"
+            "Falso",
+            "Falso, fino a 10",
+            "Falso, pi\u00f9 di 20"
         ],
         "giusta": "Vero"
     },
     "229": {
         "domanda": "Nell\u2019impronta contactless (senza contatto), cosa \u00e8 possibile osservare?",
         "risposte": [
-            "Core visibile, Direzione ridge, Fine riga e biforcazioni visibili"
+            "Core visibile, Direzione ridge, Fine riga e biforcazioni visibili",
+            "Solo dettagli superficiali",
+            "La forma delle impronte"
         ],
         "giusta": "Core visibile, Direzione ridge, Fine riga e biforcazioni visibili"
     },
     "230": {
         "domanda": "L\u2019autofocus aggiunge informazione all\u2019immagine?",
         "risposte": [
-            "Falso"
+            "Falso",
+            "Vero, ma non sempre",
+            "Vero"
         ],
         "giusta": "Falso"
     },
     "231": {
-        "domanda": "Nel galaxy S9 della samsung, Una lente della fotocamera consente allo scanner dell'iride di riconoscere facilmente gli utenti con gli occhiali o quando si trovano in un ambiente troppo buio o troppo scuro?",
+        "domanda": "Nel galaxy S9 della samsung, Una lente della fotocamera consente allo scanner dell\u2019iride di riconoscere facilmente gli utenti con gli occhiali o quando si trovano in un ambiente troppo buio o troppo scuro?",
         "risposte": [
             "Vero",
+            "Falso, la feature \u00e8 stata inserita nei dispositivi successivi",
             "Falso"
         ],
         "giusta": "Vero"
@@ -2044,6 +2155,7 @@
         "domanda": "L\u2019obbiettivo di un drone pu\u00f2 avere lenti asferiche?",
         "risposte": [
             "Vero",
+            "Falso, le lenti asferiche non si prestano ad alte quote",
             "Falso"
         ],
         "giusta": "Vero"
@@ -2051,9 +2163,11 @@
     "233": {
         "domanda": "La quantit\u00e0 di luce catturata da un obiettivo:",
         "risposte": [
-            "\u00e8 proporzionale all'area dell'apertura."
+            "\u00e8 proporzionale all\u2019area dell\u2019apertura.",
+            "\u00e8 esponenziale rispetto all\u2019area di apertura",
+            "non \u00e8 legata all\u2019area di apertura"
         ],
-        "giusta": "\u00e8 proporzionale all'area dell'apertura."
+        "giusta": "\u00e8 proporzionale all\u2019area dell\u2019apertura."
     },
     "234": {
         "domanda": "Se due fotocamere di dimensioni e lunghezze focali diverse hanno lo stesso angolo di visione e la stessa area di apertura, raccolgono la stessa quantit\u00e0 di luce dalla scena",
@@ -2066,28 +2180,34 @@
     "235": {
         "domanda": "L\u2019obbiettivo a fuoco di una distanza di 1, 5, 20 metri, l\u2019apertura del diaframma e la lunghezza focale cambia?",
         "risposte": [
-            "Falso, il diaframma sar\u00e0 sempre f/8 e lunghezza focale 70"
+            "Falso, il diaframma sar\u00e0 sempre f/8 e lunghezza focale 70",
+            "Vero, l\u2019apertura del diaframma varia in proporzione con la lunghezza focale"
         ],
         "giusta": "Falso, il diaframma sar\u00e0 sempre f/8 e lunghezza focale 70"
     },
     "236": {
         "domanda": "In fotografia, Cosa \u00e8 uno stop?",
         "risposte": [
-            "Uno stop \u00e8 il raddoppio o la met\u00e0 della quantit\u00e0 di luce lasciata entrare quando si scatta una foto"
+            "Uno stop \u00e8 il raddoppio o la met\u00e0 della quantit\u00e0 di luce lasciata entrare quando si scatta una foto",
+            "Un segnale che indica di smettere di scattare foto",
+            "Uno stop \u00e8 una porzione della quantit\u00e0 di luce lasciata entrare quando si scatta una foto"
         ],
         "giusta": "Uno stop \u00e8 il raddoppio o la met\u00e0 della quantit\u00e0 di luce lasciata entrare quando si scatta una foto"
     },
     "237": {
         "domanda": "Gli stops dipendono da:",
         "risposte": [
-            "Velocit\u00e0 dell'otturatore, Velocit\u00e0 ISO, Diametro dell'apertura"
+            "Velocit\u00e0 dell\u2019otturatore, Velocit\u00e0 ISO, Diametro dell\u2019apertura",
+            "Dalla quantit\u00e0 di luce riflessa",
+            "Solo dalla Velocit\u00e0 ISO"
         ],
-        "giusta": "Velocit\u00e0 dell'otturatore, Velocit\u00e0 ISO, Diametro dell'apertura"
+        "giusta": "Velocit\u00e0 dell\u2019otturatore, Velocit\u00e0 ISO, Diametro dell\u2019apertura"
     },
     "238": {
         "domanda": "Quale \u00e8 l\u2019effetto del teleobbiettivo?",
         "risposte": [
-            "Pi\u00f9 stringi sul tuo soggetto, minore profondit\u00e0 di campo avrai in foto"
+            "Pi\u00f9 stringi sul tuo soggetto, minore profondit\u00e0 di campo avrai in foto",
+            "Pi\u00f9 stringi sul tuo soggetto, maggiore profondit\u00e0 di campo avrai in foto"
         ],
         "giusta": "Pi\u00f9 stringi sul tuo soggetto, minore profondit\u00e0 di campo avrai in foto"
     },
@@ -2102,27 +2222,39 @@
     "240": {
         "domanda": "Per la sorveglienza quale focale serve?",
         "risposte": [
-            "14 mm \u2013 20 mm"
+            "24 mm \u2013 35 mm",
+            "14 mm \u2013 20 mm",
+            "35 \u2013 70 mm",
+            "70 mm \u2013 600 mm"
         ],
         "giusta": "14 mm \u2013 20 mm"
     },
     "241": {
         "domanda": "Per la sorveglienza con volto quale focale serve?",
         "risposte": [
-            "24 mm \u2013 35 mm"
+            "24 mm \u2013 35 mm",
+            "14 mm \u2013 20 mm",
+            "35 \u2013 70 mm",
+            "70 mm \u2013 600 mm"
         ],
         "giusta": "24 mm \u2013 35 mm"
     },
     "242": {
         "domanda": "Per riconoscere il volto quale focale serve?",
         "risposte": [
-            "35 \u2013 70 mm"
+            "24 mm \u2013 35 mm",
+            "14 mm \u2013 20 mm",
+            "35 \u2013 70 mm",
+            "70 mm \u2013 600 mm"
         ],
         "giusta": "35 \u2013 70 mm"
     },
     "243": {
         "domanda": "Per l\u2019iride quale focale serve?",
         "risposte": [
+            "24 mm \u2013 35 mm",
+            "14 mm \u2013 20 mm",
+            "35 \u2013 70 mm",
             "70 mm \u2013 600 mm"
         ],
         "giusta": "70 mm \u2013 600 mm"
@@ -2138,35 +2270,45 @@
     "245": {
         "domanda": "Quanti megapixel pu\u00f2 avere lo zoom di una videocamera?",
         "risposte": [
-            "1 \u2013 8 Megapixel"
+            "1 \u2013 8 Megapixel",
+            "1 \u2013 20 Megapixel",
+            "1 \u2013 1 Megapixel"
         ],
         "giusta": "1 \u2013 8 Megapixel"
     },
     "246": {
         "domanda": "Il ROI (Region of interest), pu\u00f2 migliorare:",
         "risposte": [
-            "pi\u00f9 framerate, meno errori di processing, algoritmi pi\u00f9 veloci."
+            "pi\u00f9 framerate, meno errori di processing, algoritmi pi\u00f9 veloci.",
+            "aumentando il framerate",
+            "Facendo matching in parallelo"
         ],
         "giusta": "pi\u00f9 framerate, meno errori di processing, algoritmi pi\u00f9 veloci."
     },
     "247": {
         "domanda": "Come viene impostato il ROI?",
         "risposte": [
-            "Si Parte dal sensore CMOS con alta risoluzione e si imposta il ROI in base alla inquadratura e alla funzione"
+            "Si Parte dal sensore CMOS con alta risoluzione e si imposta il ROI in base alla inquadratura e alla funzione",
+            "Si Parte dal sensore CCD con alta risoluzione e si imposta il ROI in base alla funzione",
+            "Si Parte dal sensore CMOS con bassa risoluzione e si imposta il ROI in base e alla funzione"
         ],
         "giusta": "Si Parte dal sensore CMOS con alta risoluzione e si imposta il ROI in base alla inquadratura e alla funzione"
     },
     "248": {
-        "domanda": "Cosa \u00e8 Intervallo dinamico (o range dinamico, dall'inglese dynamic range)?",
+        "domanda": "Cosa \u00e8 Intervallo dinamico (o range dinamico, dall\u2019inglese dynamic range)?",
         "risposte": [
-            "\u00e8 l'intervallo tra il valore massimo possibile e quello minimo di una grandezza variabile."
+            "\u00e8 l\u2019intervallo tra il valore massimo possibile e quello minimo di una grandezza variabile.",
+            "Una funzione di intervallo che varia in base all\u2019input",
+            "Una funzione che permette di vedere le zone in ombra"
         ],
-        "giusta": "\u00e8 l'intervallo tra il valore massimo possibile e quello minimo di una grandezza variabile."
+        "giusta": "\u00e8 l\u2019intervallo tra il valore massimo possibile e quello minimo di una grandezza variabile."
     },
     "249": {
         "domanda": "Quanti DB servono per vedere un volto in ogni condizione? /La fotocamera panasonic con il super dynamic range a quanti DB pu\u00f2 arrivare?",
         "risposte": [
-            "144DB"
+            "144DB",
+            "Basta un database",
+            "480DB"
         ],
         "giusta": "144DB"
     },
@@ -2174,6 +2316,7 @@
         "domanda": "L\u2019esposizione Multipla (multiple exposure) permette esposizione di sole e ombre?",
         "risposte": [
             "Vero",
+            "Vero, solo in regioni con abbastanza contrasto",
             "Falso"
         ],
         "giusta": "Vero"
@@ -2182,6 +2325,7 @@
         "domanda": "L\u2019esposizione Multipla (multiple exposure) permette illuminazione notturna",
         "risposte": [
             "Vero",
+            "Falso, solo l\u2019esposizione di sole e ombre",
             "Falso"
         ],
         "giusta": "Vero"
@@ -2190,6 +2334,7 @@
         "domanda": "L\u2019esposizione Multipla (multiple exposure) permette di riprendere pi\u00f9 soggetti?",
         "risposte": [
             "Vero",
+            "Vero, ma con un limite stimato di cinque soggetti",
             "Falso"
         ],
         "giusta": "Vero"
@@ -2198,6 +2343,7 @@
         "domanda": "L\u2019esposizione Multipla (multiple exposure) permette una Simultanea acquisizione di due immagini con diverso tempo di esposizione (exposure time)?",
         "risposte": [
             "Vero",
+            "Solo se le immagini hanno uno scarto di 0.5 secondi al massimo",
             "Falso"
         ],
         "giusta": "Vero"
@@ -2205,14 +2351,17 @@
     "254": {
         "domanda": "A cosa serve l\u2019HDR (High Dynamic Range)?",
         "risposte": [
-            "Serve nelle immagini, per Riprodurre Una gamma dinamica (di colore) maggiore Di quella disponibile dal Sensore nel singolo fotogramma"
+            "Serve nelle immagini, per Riprodurre Una gamma dinamica (di colore) maggiore Di quella disponibile dal Sensore nel singolo fotogramma",
+            "Serve per rilevare un maggior numero di minuzie in biometria",
+            "Serve ad acquisire immagini di oggetti in movimento entro una certa accelerazione"
         ],
         "giusta": "Serve nelle immagini, per Riprodurre Una gamma dinamica (di colore) maggiore Di quella disponibile dal Sensore nel singolo fotogramma"
     },
     "255": {
         "domanda": "Quale \u00e8 lo scopo del HDR?",
         "risposte": [
-            "Realizzare un range di illuminazione simile a quello dell\u2019occhio umano e Avere Dati Utili da Regioni ad alta e bassa Luminosit\u00e0 Nella immagine evitando Saturazione e rumore."
+            "Realizzare un range di illuminazione simile a quello dell\u2019occhio umano e Avere Dati Utili da Regioni ad alta e bassa Luminosit\u00e0 Nella immagine evitando Saturazione e rumore.",
+            "Serve a realizzare un range di illuminazione maggiore rispetto all\u2019occhio umano in modo da poter vedere zone non visibili ad occhio nudo"
         ],
         "giusta": "Realizzare un range di illuminazione simile a quello dell\u2019occhio umano e Avere Dati Utili da Regioni ad alta e bassa Luminosit\u00e0 Nella immagine evitando Saturazione e rumore."
     },
@@ -2220,6 +2369,7 @@
         "domanda": "Nella multi integration mode \u00e8 possibile riprendere oggetti in veloce movimento?",
         "risposte": [
             "Vero",
+            "Falso, ma grazie a nuove tecniche sembra probabile che lo diventi presto",
             "Falso"
         ],
         "giusta": "Vero"
@@ -2227,14 +2377,18 @@
     "257": {
         "domanda": "Nella multi integration mode, l\u2019analisi della velocit\u00e0 di cosa tiene conto?",
         "risposte": [
-            "Lunghezza nel tempo e distanza ricoperta dall\u2019oggetto in movimento"
+            "Lunghezza nel tempo e distanza ricoperta dall\u2019oggetto in movimento",
+            "Del moto accelerato del veicolo",
+            "Della velocit\u00c3\u00a0 istantanea"
         ],
         "giusta": "Lunghezza nel tempo e distanza ricoperta dall\u2019oggetto in movimento"
     },
     "258": {
         "domanda": "Nella fotografia Macro, Il pacchetto di circuiti integrati, quanto \u00e8 pi\u00f9 alto, rispetto al circuitocircuito su cui \u00e8 montato?",
         "risposte": [
-            "2,5 mm"
+            "2,5 mm",
+            "5 mm",
+            "1,5 mm"
         ],
         "giusta": "2,5 mm"
     },
@@ -2249,7 +2403,9 @@
     "260": {
         "domanda": "A F/32 le scritte sul pacchetto IC sono notevolmente pi\u00f9 morbide di quelle in f / 5?",
         "risposte": [
-            "Vero, a causa della diffrazione."
+            "Vero, a causa della diffrazione.",
+            "Falso, a causa della diffrazione",
+            "Vero, indipendentemente dalla diffrazione"
         ],
         "giusta": "Vero, a causa della diffrazione."
     },
@@ -2259,12 +2415,14 @@
             "Falso",
             "Vero"
         ],
-        "giusta": "Falso"
+        "giusta": "Vero"
     },
     "262": {
         "domanda": "Il frame rate (frequenza fotogrammi )\u00e8 utile come mezzo anti frode?",
         "risposte": [
-            "Vero, usa un photoplethysmograph remoto (rPPG)"
+            "Vero, usa un photoplethysmograph remoto (rPPG)",
+            "Falso, non sono ancora stati trovati utilizzi al riguardo",
+            "Falso, usa un photoplethysmograph remoto (rPPG)"
         ],
         "giusta": "Vero, usa un photoplethysmograph remoto (rPPG)"
     },
@@ -2277,7 +2435,7 @@
         "giusta": "Falso"
     },
     "264": {
-        "domanda": "l'uso di luce verde aumenta la nitidezza dei ridge?",
+        "domanda": "l\u2019uso di luce verde aumenta la nitidezza dei ridge?",
         "risposte": [
             "Vero",
             "Falso"
@@ -2287,21 +2445,28 @@
     "265": {
         "domanda": "Cosa \u00e8 l\u2019inferenza statistica?",
         "risposte": [
-            "\u00e8 il procedimento per cui si inducono le caratteristiche di una popolazione dall'osservazione di una parte di essa (detta 'campione') mediante un esperimento casuale (aleatorio)"
+            "\u00e8 il procedimento per cui si inducono le caratteristiche di una popolazione dall\u2019osservazione di una parte di essa (detta \u2019campione\u2019) mediante un esperimento casuale (aleatorio)",
+            "Un fattore rilevante nell\u2019analisi statistica",
+            "La percentuale di inferenza nei dati privati del campione di popolazione"
         ],
-        "giusta": "\u00e8 il procedimento per cui si inducono le caratteristiche di una popolazione dall'osservazione di una parte di essa (detta 'campione') mediante un esperimento casuale (aleatorio)"
+        "giusta": "\u00e8 il procedimento per cui si inducono le caratteristiche di una popolazione dall\u2019osservazione di una parte di essa (detta \u2019campione\u2019) mediante un esperimento casuale (aleatorio)"
     },
     "266": {
         "domanda": "L\u2019EER(eqal error rate), come viene considerato?",
         "risposte": [
-            "Come inferenza statistica"
+            "Come inferenza statistica",
+            "Come alternativa al DET",
+            "Come un errore quadratico"
         ],
         "giusta": "Come inferenza statistica"
     },
     "267": {
         "domanda": "In biometria per misurare dei risultati, \u00e8 meglio l\u2019inferenza statistica o il calcolo delle probabilit\u00e0?",
         "risposte": [
-            "Inferenza statistica"
+            "Inferenza statistica",
+            "Calcolo delle probabilit\u00e0",
+            "Nessuna delle due opzioni \u00e8 valida",
+            "Entrambe vengono usate insieme"
         ],
         "giusta": "Inferenza statistica"
     },
@@ -2309,35 +2474,49 @@
         "domanda": "Se non ho dati, per calcolare degli istogrammi, posso usare dei volontari?",
         "risposte": [
             "Vero",
-            "Falso"
+            "Falso",
+            "Falso, solo dati sintetici",
+            "Falso, viola le norme del GDPR"
         ],
         "giusta": "Vero"
     },
     "269": {
         "domanda": "Quando si verificano errori di FNM (false not match)?",
         "risposte": [
-            "Quando un certo numero di persone appartenenti al gruppo dei genuini sono sotto la soglia T e quindi non saranno autorizzati dando luogo ad errori di False Non-Match (FNM)."
+            "Quando un certo numero di persone appartenenti al gruppo dei genuini sono sotto la soglia T e quindi non saranno autorizzati dando luogo ad errori di False Non-Match (FNM).",
+            "Quando un certo numero di persone appartenenti al gruppo degli impostori sono sotto la soglia T e quindi non saranno autorizzati dando luogo ad errori di False Non-Match (FNM).",
+            "Quando un certo numero di persone appartenenti al gruppo degli impostori sono sopra la soglia T e quindi saranno autorizzati dando luogo ad errori di False Non-Match (FNM).",
+            "Quando un certo numero di persone appartenenti al gruppo dei genuini sono sopra la soglia T e quindi saranno autorizzati dando luogo ad errori di False Non-Match (FNM)."
         ],
         "giusta": "Quando un certo numero di persone appartenenti al gruppo dei genuini sono sotto la soglia T e quindi non saranno autorizzati dando luogo ad errori di False Non-Match (FNM)."
     },
     "270": {
         "domanda": "Come viene calcolato il FNMR",
         "risposte": [
-            "FNMR(T) = FNM(T) / Totale_Genuini"
+            "FNMR(T) = FNM(T) / Totale_Genuini",
+            "FNMR(T) = FNM(T) / Totale_Impostori",
+            "FNMR(T) = 1 - FMR(T)",
+            "FNMR(T) = FNM * FM /100"
         ],
         "giusta": "FNMR(T) = FNM(T) / Totale_Genuini"
     },
     "271": {
         "domanda": "Quando si verificano errori di false match?",
         "risposte": [
-            "Quando una parte degli impostori hanno valori di match sopra la soglia T e quindi saranno autorizzati dando luogo ad errori di False Match"
+            "Quando una parte degli impostori hanno valori di match sopra la soglia T e quindi saranno autorizzati dando luogo ad errori di False Match",
+            "Quando una parte dei genuini hanno valori di match sopra la soglia T e quindi saranno autorizzati dando luogo ad errori di False Match",
+            "Quando una parte degli impostori hanno valori di match sotto la soglia T e quindi non saranno autorizzati dando luogo ad errori di False Match",
+            "Quando una parte degli impostori hanno valori di match sotto la soglia T e quindi non saranno autorizzati dando luogo ad errori di False Match"
         ],
         "giusta": "Quando una parte degli impostori hanno valori di match sopra la soglia T e quindi saranno autorizzati dando luogo ad errori di False Match"
     },
     "272": {
         "domanda": "Come viene calcolato il FMR?",
         "risposte": [
-            "FMR(T) = FM(T) / Totale_Impostori"
+            "FMR(T) = FM(T) / Totale_Impostori",
+            "FMR(T) = FM(T) / Totale_Genuini",
+            "FMR(T) = FM(T) * Totale_Impostori",
+            "FMR(T) = FM(T) + Totale_Genuini"
         ],
         "giusta": "FMR(T) = FM(T) / Totale_Impostori"
     },
@@ -2352,7 +2531,10 @@
     "274": {
         "domanda": "il numero di numero di persone appartenenti al gruppo dei genuini sono sotto la soglia T (FNR) deve essere calcolato come un integrale della porzione di curva dei genuini fino alla soglia T?",
         "risposte": [
-            "Parzialmente vero, Queste formule si applicano solo se si conoscono le distribuzioni pn e pm altrimenti le approssimo con gli istogrammi e i conteggi"
+            "Parzialmente vero, Queste formule si applicano solo se si conoscono le distribuzioni pn e pm altrimenti le approssimo con gli istogrammi e i conteggi",
+            "Vero",
+            "Falso",
+            "Parzialmente vero, Queste formule si applicano solo se non si conoscono le distribuzioni pn e pm altrimenti le approssimo con gli istogrammi e i conteggi"
         ],
         "giusta": "Parzialmente vero, Queste formule si applicano solo se si conoscono le distribuzioni pn e pm altrimenti le approssimo con gli istogrammi e i conteggi"
     },
@@ -2367,21 +2549,28 @@
     "276": {
         "domanda": "Come \u00e8 definita la probabilit\u00e0 di errore?",
         "risposte": [
-            "p= P(errore) = P( FM(T) ) + P( FNM(T) )"
+            "p= P(errore) = P( FM(T) ) + P( FNM(T) )",
+            "p= P(errore) = P( FM(T) ) * P( FNM(T) )",
+            "p= P(errore) = P( FM(T) ) AND P( FNM(T) )"
         ],
         "giusta": "p= P(errore) = P( FM(T) ) + P( FNM(T) )"
     },
     "277": {
         "domanda": "Come possono essere I classificatori di riconoscimento in biometria?",
         "risposte": [
-            "Binari e multiclasse"
+            "Binari e multiclasse",
+            "Binari",
+            "Multiclasse"
         ],
         "giusta": "Binari e multiclasse"
     },
     "278": {
         "domanda": "Quale \u00e8 la differenza tra classificatore binario e multiclasse?",
         "risposte": [
-            "Il binario se riconosce un oggetto risponde Yes/no, il multiclasse invece riconosce direttamente che oggetto \u00e8."
+            "Il binario se riconosce un oggetto risponde Yes/no, il multiclasse invece riconosce direttamente che oggetto \u00e8.",
+            "Sono sinonimi",
+            "Il binario assegna un oggetto ad un massimo di due classi, il multiclasse a n classi",
+            "Il binario restituisce solo risposte booleane, il multiclasse float"
         ],
         "giusta": "Il binario se riconosce un oggetto risponde Yes/no, il multiclasse invece riconosce direttamente che oggetto \u00e8."
     },
@@ -2397,6 +2586,7 @@
         "domanda": "Le distribuzioni di Bernoulli, sono utili per DESCRIVE ERRORE in AUTENTICAZIONE e identificazione?",
         "risposte": [
             "Vero",
+            "Falso, solo identificazione",
             "Falso"
         ],
         "giusta": "Vero"
@@ -2405,6 +2595,7 @@
         "domanda": "Nella binomiale di Bernoulli la distribuzione \u00e8 continua?",
         "risposte": [
             "Falso",
+            "Falso, \u00e8 dipendente ma non continua",
             "Vero"
         ],
         "giusta": "Falso"
@@ -2412,28 +2603,35 @@
     "282": {
         "domanda": "Nella binomiale di Bernoulli se l\u2019errore \u00e8 basso, cosa avviene?",
         "risposte": [
-            "la forma della linea della distribuzione cambia completamente e cade subito verso zero"
+            "la forma della linea della distribuzione cambia completamente e cade subito verso zero",
+            "la forma della linea della distribuzione cambia completamente e si avvicina al limite massimo",
+            "la forma della linea della distribuzione rimane stabile"
         ],
         "giusta": "la forma della linea della distribuzione cambia completamente e cade subito verso zero"
     },
     "283": {
         "domanda": "Cosa dice la regola dei 3",
         "risposte": [
-            "Il tasso di errore p per il quale si ha la probabilit\u00e0 di ZERO errori in N prove \u00e8 circa p\u22483/N, per un intervallo di confidenza del 95%."
+            "Il tasso di errore p per il quale si ha la probabilit\u00e0 di ZERO errori in N prove \u00e8 circa p\u22483/N, per un intervallo di confidenza del 95%.",
+            "Per essere sicuro con intervallo di confidenza del 90% che il tasso di errore sia tra +30% e -30% devono esserci almeno 3 errori."
         ],
         "giusta": "Il tasso di errore p per il quale si ha la probabilit\u00e0 di ZERO errori in N prove \u00e8 circa p\u22483/N, per un intervallo di confidenza del 95%."
     },
     "284": {
         "domanda": "Quanto aumentano gli errori se uso un sistema di Verifica (FMR,FNMR) in modalit\u00e0 di Identificazione (FMRN,FNMRN)?",
         "risposte": [
-            "I tassi di errore per i genuini non cambiano"
+            "I tassi di errore per i genuini non cambiano",
+            "I tassi di errore per i genuini cambiano in modo direttamente proporzionale",
+            "I tassi di errore per i genuini si dimezzano"
         ],
         "giusta": "I tassi di errore per i genuini non cambiano"
     },
     "285": {
         "domanda": "Cosa dice la regola dei 30?",
         "risposte": [
-            "Per essere sicuro con intervallo di conf. del 90% che il tasso di errore vero sia tra il \u00b130% del tasso di errore osservato ci devono essere almeno 30 errori."
+            "Per essere sicuro con intervallo di conf. del 90% che il tasso di errore vero sia tra il \u00b130% del tasso di errore osservato ci devono essere almeno 30 errori.",
+            "Il tasso di errore p per il quale si ha la probabilit\u00e0 di ZERO errori in N prove \u00e8 circa p\u22483/N, per un intervallo di confidenza del 95%.",
+            "Per essere sicuro con intervallo di conf. del 90% che il tasso di errore vero sia il 30% devo avere n/30 errori"
         ],
         "giusta": "Per essere sicuro con intervallo di conf. del 90% che il tasso di errore vero sia tra il \u00b130% del tasso di errore osservato ci devono essere almeno 30 errori."
     },
@@ -2448,63 +2646,77 @@
     "287": {
         "domanda": "I Data Set Partitioning (partizioni di set di dati) a cosa servono?",
         "risposte": [
-            "Valutare le prestazioni di un determinato modello rispetto a una serie di noti problemi standard."
+            "Valutare le prestazioni di un determinato modello rispetto a una serie di noti problemi standard.",
+            "A facilitare la ricerca dei template",
+            "A ridurre lo spazio occupato nel DB"
         ],
         "giusta": "Valutare le prestazioni di un determinato modello rispetto a una serie di noti problemi standard."
     },
     "288": {
         "domanda": "Di quali problemi soffre il Data set partitioning?",
         "risposte": [
-            "Soffre di problemi di underfitting e overfitting"
+            "Soffre di problemi di underfitting e overfitting",
+            "Overfitting",
+            "Soffre di problemi di dimensionamento"
         ],
         "giusta": "Soffre di problemi di underfitting e overfitting"
     },
     "289": {
-        "domanda": "Quando si verifica l'underfitting?",
+        "domanda": "Quando si verifica l\u2019underfitting?",
         "risposte": [
-            "Il underfitting si verifica quando il modello \u00e8 scarsamente adattato ai dati, a causa di errori elevati sia nell'allenamento che nei dati di test (non visti)"
+            "Il underfitting si verifica quando il modello \u00e8 scarsamente adattato ai dati, a causa di errori elevati sia nell\u2019allenamento che nei dati di test (non visti)",
+            "L\u2019adattamento eccessivo si verifica quando il modello \u00e8 troppo strettamente adattato ai dati offrendo un\u2019elevata precisione ai casi noti ma comportandosi male con i dati invisibili"
         ],
-        "giusta": "Il underfitting si verifica quando il modello \u00e8 scarsamente adattato ai dati, a causa di errori elevati sia nell'allenamento che nei dati di test (non visti)"
+        "giusta": "Il underfitting si verifica quando il modello \u00e8 scarsamente adattato ai dati, a causa di errori elevati sia nell\u2019allenamento che nei dati di test (non visti)"
     },
     "290": {
-        "domanda": "Quando si verifica l'Overfitting ?",
+        "domanda": "Quando si verifica l\u2019Overfitting ?",
         "risposte": [
-            "L'adattamento eccessivo si verifica quando il modello \u00e8 troppo strettamente adattato ai dati offrendo un'elevata precisione ai casi noti ma comportandosi male con i dati invisibili"
+            "L\u2019adattamento eccessivo si verifica quando il modello \u00e8 troppo strettamente adattato ai dati offrendo un\u2019elevata precisione ai casi noti ma comportandosi male con i dati invisibili",
+            "L\u2019adattamento eccessivo si verifica quando il modello \u00e8 troppo strettamente adattato ai dati offrendo un\u2019elevata precisione ai casi noti ma comportandosi male con i dati invisibili"
         ],
-        "giusta": "L'adattamento eccessivo si verifica quando il modello \u00e8 troppo strettamente adattato ai dati offrendo un'elevata precisione ai casi noti ma comportandosi male con i dati invisibili"
+        "giusta": "L\u2019adattamento eccessivo si verifica quando il modello \u00e8 troppo strettamente adattato ai dati offrendo un\u2019elevata precisione ai casi noti ma comportandosi male con i dati invisibili"
     },
     "291": {
         "domanda": "Cosa pu\u00f2 generare underfitting?",
         "risposte": [
-            "Usando i dati interamente senza scremarli o la mancanza di dati."
+            "Usando i dati interamente senza scremarli o la mancanza di dati.",
+            "La continuamente regolamentazione dei pesi del modello per adattarsi meglio ai dati (arresto anticipato!), la mancanza di casi invisibili rende impossibile notare questa situazione, Apprendimento del rumore nei dati"
         ],
         "giusta": "Usando i dati interamente senza scremarli o la mancanza di dati."
     },
     "292": {
         "domanda": "Cosa genera overfitting?",
         "risposte": [
-            "La continuamente regolamentazione dei pesi del modello per adattarsi meglio ai dati (arresto anticipato!), la mancanza di casi invisibili rende impossibile notare questa situazione, Apprendimento del rumore nei dati"
+            "La continuamente regolamentazione dei pesi del modello per adattarsi meglio ai dati (arresto anticipato!), la mancanza di casi invisibili rende impossibile notare questa situazione, Apprendimento del rumore nei dati",
+            "Usando i dati interamente senza scremarli o la mancanza di dati."
         ],
         "giusta": "La continuamente regolamentazione dei pesi del modello per adattarsi meglio ai dati (arresto anticipato!), la mancanza di casi invisibili rende impossibile notare questa situazione, Apprendimento del rumore nei dati"
     },
     "293": {
         "domanda": "Cosa si pu\u00f2 fare per evitare problemi di underfitting e overfitting?",
         "risposte": [
-            "controllare le prestazioni del modello, evitare l'adattamento eccessivo, avere una stima generalizzabile della qualit\u00e0 del modello ottenuto"
+            "controllare le prestazioni del modello, evitare l\u2019adattamento eccessivo, avere una stima generalizzabile della qualit\u00e0 del modello ottenuto",
+            "controllare le prestazioni del modello e adattare meglio i dati",
+            "Stimare la qualit\u00e0 del modello"
         ],
-        "giusta": "controllare le prestazioni del modello, evitare l'adattamento eccessivo, avere una stima generalizzabile della qualit\u00e0 del modello ottenuto"
+        "giusta": "controllare le prestazioni del modello, evitare l\u2019adattamento eccessivo, avere una stima generalizzabile della qualit\u00e0 del modello ottenuto"
     },
     "294": {
         "domanda": "Come avviene il K-FCV?",
         "risposte": [
-            "1. In k-FCV, il set di dati originale \u00e8 suddiviso casualmente in k partizioni di uguale dimensione 2. Dalle partizioni k, uno viene conservato come dati di convalida per il test del modello e i restanti sottocampioni k - 1 vengono utilizzati per costruire il modello. 3. Dato che abbiamo k partizioni, il processo viene ripetuto k volte con ciascuno dei k sottocampioni usati esattamente una volta come dati di validazione"
+            "1. In k-FCV, il set di dati originale \u00e8 suddiviso casualmente in k partizioni di uguale dimensione 2. Dalle partizioni k, uno viene conservato come dati di convalida per il test del modello e i restanti sottocampioni k - 1 vengono utilizzati per costruire il modello. 3. Dato che abbiamo k partizioni, il processo viene ripetuto k volte con ciascuno dei k sottocampioni usati esattamente una volta come dati di validazione",
+            "1. In k-FCV, il set di dati originale \u00e8 suddiviso in k partizioni di dimensione crescente 2. Dalle partizioni k, uno o pi\u00c3\u00b9 vengono conservati come dati di convalida per il test del modello e i restanti sottocampioni k - n vengono utilizzati per costruire il modello. 3. Dato che abbiamo k partizioni, il processo viene ripetuto n volte con ciascuno dei k sottocampioni usati esattamente una volta come dati di validazione"
         ],
         "giusta": "1. In k-FCV, il set di dati originale \u00e8 suddiviso casualmente in k partizioni di uguale dimensione 2. Dalle partizioni k, uno viene conservato come dati di convalida per il test del modello e i restanti sottocampioni k - 1 vengono utilizzati per costruire il modello. 3. Dato che abbiamo k partizioni, il processo viene ripetuto k volte con ciascuno dei k sottocampioni usati esattamente una volta come dati di validazione"
     },
     "295": {
         "domanda": "Quali sono il numero di partizioni pi\u00f9 frequenti di K-FCV?",
         "risposte": [
-            "5 e 10"
+            "5 e 10",
+            "3 e 5",
+            "3 e 12",
+            "5 e 12"
         ],
         "giusta": "5 e 10"
     },
@@ -2519,21 +2731,24 @@
     "297": {
         "domanda": "Come avviene il 5 x 2CV??",
         "risposte": [
-            "\u2022 L'intero set di dati \u00e8 partizionato casualmente in due sottoinsiemi A e B. \u2022 Il modello viene inizialmente creato utilizzando A e convalidato con B \u2022 Quindi il processo viene invertito con il modello costruito con B e testato con A \u2022 Questo processo di partizionamento viene ripetuto come desiderato (ad esempio 5 volte) \u2022 la misura delle prestazioni in ogni fase viene aggregata ogni volta che il processo viene ripetuto"
+            "\u2022 L\u2019intero set di dati \u00e8 partizionato casualmente in due sottoinsiemi A e B. \u2022 Il modello viene inizialmente creato utilizzando A e convalidato con B \u2022 Quindi il processo viene invertito con il modello costruito con B e testato con A \u2022 Questo processo di partizionamento viene ripetuto come desiderato (ad esempio 5 volte) \u2022 la misura delle prestazioni in ogni fase viene aggregata ogni volta che il processo viene ripetuto",
+            "\u2022 L\u2019intero set di dati \u00e8 partizionato casualmente in cinque sottoinsiemi A e B. \u2022 Il modello viene inizialmente creato utilizzando A e convalidato con B \u2022 Quindi il processo viene invertito con il modello costruito con B e testato con A \u2022 Questo processo di partizionamento viene ripetuto come desiderato (ad esempio 2 volte) \u2022 la misura delle prestazioni in ogni fase viene aggregata ogni volta che il processo viene ripetuto"
         ],
-        "giusta": "\u2022 L'intero set di dati \u00e8 partizionato casualmente in due sottoinsiemi A e B. \u2022 Il modello viene inizialmente creato utilizzando A e convalidato con B \u2022 Quindi il processo viene invertito con il modello costruito con B e testato con A \u2022 Questo processo di partizionamento viene ripetuto come desiderato (ad esempio 5 volte) \u2022 la misura delle prestazioni in ogni fase viene aggregata ogni volta che il processo viene ripetuto"
+        "giusta": "\u2022 L\u2019intero set di dati \u00e8 partizionato casualmente in due sottoinsiemi A e B. \u2022 Il modello viene inizialmente creato utilizzando A e convalidato con B \u2022 Quindi il processo viene invertito con il modello costruito con B e testato con A \u2022 Questo processo di partizionamento viene ripetuto come desiderato (ad esempio 5 volte) \u2022 la misura delle prestazioni in ogni fase viene aggregata ogni volta che il processo viene ripetuto"
     },
     "298": {
         "domanda": "Come Avviene il LOO?",
         "risposte": [
-            "\u00c8 un caso estremo di k-FCV, k \u00e8 uguale al numero di esempi nel set di dati. In ogni passaggio viene utilizzata solo un'istanza per testare il modello mentre il resto delle istanze viene utilizzato per apprenderlo."
+            "\u00c8 un caso estremo di k-FCV, k \u00e8 uguale al numero di esempi nel set di dati. In ogni passaggio viene utilizzata solo un\u2019istanza per testare il modello mentre il resto delle istanze viene utilizzato per apprenderlo.",
+            "L\u2019apprendimento di una rete neurale a molti livelli e/o neuroni \u00e8 tale da imparare a memoria soggetti NON dalla caratteristica biometrica che vogliamo impiegare Impara il colore della pelle, la presenza di barba ma non i tratti del volto. L\u2019accuratezza pu\u00f2 arrivare a EER=0 fittiziamente!"
         ],
-        "giusta": "\u00c8 un caso estremo di k-FCV, k \u00e8 uguale al numero di esempi nel set di dati. In ogni passaggio viene utilizzata solo un'istanza per testare il modello mentre il resto delle istanze viene utilizzato per apprenderlo."
+        "giusta": "\u00c8 un caso estremo di k-FCV, k \u00e8 uguale al numero di esempi nel set di dati. In ogni passaggio viene utilizzata solo un\u2019istanza per testare il modello mentre il resto delle istanze viene utilizzato per apprenderlo."
     },
     "299": {
         "domanda": "Come funziona il LOPO?",
         "risposte": [
-            "L\u2019apprendimento di una rete neurale a molti livelli e/o neuroni \u00e8 tale da imparare a memoria soggetti NON dalla caratteristica biometrica che vogliamo impiegare Impara il colore della pelle, la presenza di barba ma non i tratti del volto. L\u2019accuratezza pu\u00f2 arrivare a EER=0 fittiziamente!"
+            "L\u2019apprendimento di una rete neurale a molti livelli e/o neuroni \u00e8 tale da imparare a memoria soggetti NON dalla caratteristica biometrica che vogliamo impiegare Impara il colore della pelle, la presenza di barba ma non i tratti del volto. L\u2019accuratezza pu\u00f2 arrivare a EER=0 fittiziamente!",
+            "\u00c8 un caso estremo di k-FCV, k \u00e8 uguale al numero di esempi nel set di dati. In ogni passaggio viene utilizzata solo un\u2019istanza per testare il modello mentre il resto delle istanze viene utilizzato per apprenderlo."
         ],
         "giusta": "L\u2019apprendimento di una rete neurale a molti livelli e/o neuroni \u00e8 tale da imparare a memoria soggetti NON dalla caratteristica biometrica che vogliamo impiegare Impara il colore della pelle, la presenza di barba ma non i tratti del volto. L\u2019accuratezza pu\u00f2 arrivare a EER=0 fittiziamente!"
     },
@@ -2548,72 +2763,91 @@
     "301": {
         "domanda": "Il sistema biometrico come viene mappato?",
         "risposte": [
-            "\u00abmappa\u00bb 1 vettore in ingresso in 1 intero in uscita"
+            "\u00abmappa\u00bb 1 vettore in ingresso in 1 intero in uscita",
+            "1 vettore in ingresso e n vettori in uscita",
+            "n vettori in ingresso e n vettori in uscita"
         ],
         "giusta": "\u00abmappa\u00bb 1 vettore in ingresso in 1 intero in uscita"
     },
     "302": {
         "domanda": "Le primitive biometriche come classificatori, per cosa possono essere usate?",
         "risposte": [
-            "Face detection, Fingerprint indexing (indicizazione impronte, arch,loop, whorl),controllo qualit\u00e0, anti-frode"
+            "Face detection, Fingerprint indexing (indicizazione impronte, arch,loop, whorl),controllo qualit\u00e0, anti-frode",
+            "Face recognition, Facial Fingerprinting e classificazione delle impronte"
         ],
         "giusta": "Face detection, Fingerprint indexing (indicizazione impronte, arch,loop, whorl),controllo qualit\u00e0, anti-frode"
     },
     "303": {
         "domanda": "Quali sono le component principali del Machine learning?",
         "risposte": [
-            "Rappresentazione, valutazione, ottimizazione."
+            "Rappresentazione, valutazione, ottimizazione.",
+            "Rappresentazione, estrazione e dimensionamento",
+            "Detection, extraction e matching"
         ],
         "giusta": "Rappresentazione, valutazione, ottimizazione."
     },
     "304": {
         "domanda": "A cosa serve la valutazione nel Machine learning?",
         "risposte": [
-            "A giudicare o preferire un modello piuttosto che un altro"
+            "A giudicare o preferire un modello piuttosto che un altro",
+            "A classificare i modelli",
+            "A creare una scala crescente di modelli ottimizzati"
         ],
         "giusta": "A giudicare o preferire un modello piuttosto che un altro"
     },
     "305": {
         "domanda": "A cosa serve l\u2019ottimizzazione nel Machine learning?",
         "risposte": [
-            "A cercare lo spazio dei modelli rappresentati per ottenere valutazioni migliori"
+            "A cercare lo spazio dei modelli rappresentati per ottenere valutazioni migliori",
+            "A svolgere pi\u00c3\u00b9 velocemente le operazioni"
         ],
         "giusta": "A cercare lo spazio dei modelli rappresentati per ottenere valutazioni migliori"
     },
     "306": {
         "domanda": "Nell\u2019ottimizzazione del machine learning, come si riduce l\u2019errore di apprendimento?",
         "risposte": [
-            "Andando a modificare i pesi del modello"
+            "Andando a modificare i pesi del modello",
+            "Aumentando i pesi del modello",
+            "Diminuendo l\u2019EER"
         ],
         "giusta": "Andando a modificare i pesi del modello"
     },
     "307": {
         "domanda": "Quali tipi di apprendimento esistono?",
         "risposte": [
-            "Esistono apprendimento di tipo deduttivo e induttivo"
+            "Esistono apprendimento di tipo deduttivo e induttivo",
+            "Trasduttivo",
+            "Basato sulla teoria e sulla pratica",
+            "Basato sull\u2019utilizzo di premi e teorie"
         ],
         "giusta": "Esistono apprendimento di tipo deduttivo e induttivo"
     },
     "308": {
         "domanda": "Quali sono i tipi di apprendimimento nel machine learning?",
         "risposte": [
-            "Supervisionato, non super visionato, semi supervisionato, reinforcement"
+            "Supervisionato, non super visionato, semi supervisionato, reinforcement",
+            "Supervisionato, non supervisionato e ibrido",
+            "Transfered e reinforcement"
         ],
         "giusta": "Supervisionato, non super visionato, semi supervisionato, reinforcement"
     },
     "309": {
         "domanda": "Perch\u00e9 \u00e8 raro usare metodi di apprendimento deduttivi?",
         "risposte": [
-            "E\u2019 pi\u00f9 probabile che ti diano dei dati (anche rumorosi e mancanti) che ti diano un modello del mondo efficace da applicare direttamente."
+            "E\u2019 pi\u00f9 probabile che ti diano dei dati (anche rumorosi e mancanti) che ti diano un modello del mondo efficace da applicare direttamente.",
+            "E\u2019 pi\u00f9 probabile che le deduzioni siano errate",
+            "Risultano spesso inefficaci"
         ],
         "giusta": "E\u2019 pi\u00f9 probabile che ti diano dei dati (anche rumorosi e mancanti) che ti diano un modello del mondo efficace da applicare direttamente."
     },
     "310": {
         "domanda": "Come funziona il reinforcement Learning?",
         "risposte": [
-            "I modelli di apprendimento per rinforzo usano dinamiche opposte come ricompense e punizioni per 'rafforzare' diversi tipi di conoscenza."
+            "I modelli di apprendimento per rinforzo usano dinamiche opposte come ricompense e punizioni per \u2019rafforzare\u2019 diversi tipi di conoscenza.",
+            "La conoscenza viene trasemessa da altri modelli precedentemente allenati",
+            "Il modello di apprendimento esegue una ricerca deep per ottenere maggior premi possibili"
         ],
-        "giusta": "I modelli di apprendimento per rinforzo usano dinamiche opposte come ricompense e punizioni per 'rafforzare' diversi tipi di conoscenza."
+        "giusta": "I modelli di apprendimento per rinforzo usano dinamiche opposte come ricompense e punizioni per \u2019rafforzare\u2019 diversi tipi di conoscenza."
     },
     "311": {
         "domanda": "Si pu\u00f2 creare un agente bot con il reinforcement learning?",
@@ -2626,21 +2860,28 @@
     "312": {
         "domanda": "Il reinforcement learning pu\u00f2 essere utilizzato per le impronte?",
         "risposte": [
-            "Vero, pu\u00f2 essere utilizzato per Trovare le minutiae (fine riga, biforcazioni) si pu\u00f2 eseguire percorrendo i ridge in toni di grigio"
+            "Vero, pu\u00f2 essere utilizzato per Trovare le minutiae (fine riga, biforcazioni) si pu\u00f2 eseguire percorrendo i ridge in toni di grigio",
+            "Falso",
+            "Vero, pu\u00f2 essere utilizzato per Trovare i fine ridge con il metodo del rastrello"
         ],
         "giusta": "Vero, pu\u00f2 essere utilizzato per Trovare le minutiae (fine riga, biforcazioni) si pu\u00f2 eseguire percorrendo i ridge in toni di grigio"
     },
     "313": {
         "domanda": "In cosa consiste il transfer learning?",
         "risposte": [
-            "Consiste nel passaggio della conoscenza da un modello all\u2019altro"
+            "Consiste nel passaggio della conoscenza da un modello all\u2019altro",
+            "I modelli di apprendimento per rinforzo usano dinamiche opposte come ricompense e punizioni per \u2019rafforzare\u2019 diversi tipi di conoscenza.",
+            "La conoscenza viene trasferita dalle precedenti esecuzioni"
         ],
         "giusta": "Consiste nel passaggio della conoscenza da un modello all\u2019altro"
     },
     "314": {
         "domanda": "In ordine commerciale quale avuto pi\u00f9 successo nelle tipologie di apprendimento?",
         "risposte": [
-            "Supervised, transfer learning, unsupervide, reinforcement learning."
+            "Supervised, transfer learning, unsupervide, reinforcement learning.",
+            "transfer learning, unsupervised, supervised, reinforcement learning.",
+            "reinforcement learning, Supervised, transfer learning, unsupervide.",
+            "Supervised, reinforcement learning, transfer learning, unsupervide."
         ],
         "giusta": "Supervised, transfer learning, unsupervide, reinforcement learning."
     },
@@ -2671,21 +2912,29 @@
     "318": {
         "domanda": "Quale \u00e8 il workflow (flusso di lavoro/ciclo di vita) del machine learning?",
         "risposte": [
-            "Ottenere i dati, Prepararli e manipolarli, allenare il modello, testare i dati, ottimizzare"
+            "Ottenere i dati, Prepararli e manipolarli, allenare il modello, testare i dati, ottimizzare",
+            "Ottenere i dati, allenare il modello, testare i dati, manipolarli, ottimizzare",
+            "Prepararare e manipolare i dati, allenare il modello, testare i dati, ottimizzare",
+            "Non esiste un workflow standard"
         ],
         "giusta": "Ottenere i dati, Prepararli e manipolarli, allenare il modello, testare i dati, ottimizzare"
     },
     "319": {
         "domanda": "Quale \u00e8 il tasso di errore di riconoscimento vocale delle parole attuale?",
         "risposte": [
-            "5%"
+            "5%",
+            "1.5%",
+            "10%",
+            "20%"
         ],
         "giusta": "5%"
     },
     "320": {
-        "domanda": "Secondo Andrew Ng, quando avverr\u00e0 l'interazione naturale con un computer?",
+        "domanda": "Secondo Andrew Ng, quando avverr\u00e0 l\u2019interazione naturale con un computer?",
         "risposte": [
-            "Quando raggiungeremo tassi di errore <1%"
+            "Quando raggiungeremo tassi di errore <1%",
+            "Quando raggiungeremo tassi di errore <10%",
+            "Quando raggiungeremo tassi di errore >1%"
         ],
         "giusta": "Quando raggiungeremo tassi di errore <1%"
     },
@@ -2700,28 +2949,34 @@
     "322": {
         "domanda": "Quali sono le pi\u00f9 famose tecniche di computational intellogence (CI)?",
         "risposte": [
-            "Reti neurali, evolutionary computing, fuzzy logic."
+            "Reti neurali, evolutionary computing, fuzzy logic.",
+            "CCN e PCA",
+            "Reti neurali, computazionali e profonde"
         ],
         "giusta": "Reti neurali, evolutionary computing, fuzzy logic."
     },
     "323": {
         "domanda": "Come funziona un neurone nelle reti neurali?",
         "risposte": [
-            "Il neurone calcola la somma ponderata dei segnali di input e confronta il risultato con un valore di soglia, \ud835\udf17. Se l'ingresso netto \u00e8 inferiore alla soglia, l'uscita del neurone \u00e8 -1. Ma se l'ingresso netto \u00e8 maggiore o uguale alla soglia, il neurone viene attivato e la sua uscita raggiunge un valore +1."
+            "Il neurone calcola la somma ponderata dei segnali di input e confronta il risultato con un valore di soglia, \ud835\udf17. Se l\u2019ingresso netto \u00e8 inferiore alla soglia, l\u2019uscita del neurone \u00e8 -1. Ma se l\u2019ingresso netto \u00e8 maggiore o uguale alla soglia, il neurone viene attivato e la sua uscita raggiunge un valore +1.",
+            "Il neurone calcola la media pesata dei segnali di input e confronta il risultato con un valore di soglia, \ud835\udf17. Se l\u2019ingresso netto \u00e8 inferiore alla soglia, l\u2019uscita del neurone \u00e8 -1. Ma se l\u2019ingresso netto \u00e8 maggiore o uguale alla soglia, il neurone viene attivato e la sua uscita raggiunge un valore +1.",
+            "Il neurone calcola la somma dei segnali di input e confronta il risultato con un valore di soglia, \ud835\udf17. Se l\u2019ingresso netto \u00e8 inferiore alla soglia, l\u2019uscita del neurone \u00e8 -1. Ma se l\u2019ingresso netto \u00e8 maggiore o uguale alla soglia, il neurone viene attivato e la sua uscita raggiunge un valore +1."
         ],
-        "giusta": "Il neurone calcola la somma ponderata dei segnali di input e confronta il risultato con un valore di soglia, \ud835\udf17. Se l'ingresso netto \u00e8 inferiore alla soglia, l'uscita del neurone \u00e8 -1. Ma se l'ingresso netto \u00e8 maggiore o uguale alla soglia, il neurone viene attivato e la sua uscita raggiunge un valore +1."
+        "giusta": "Il neurone calcola la somma ponderata dei segnali di input e confronta il risultato con un valore di soglia, \ud835\udf17. Se l\u2019ingresso netto \u00e8 inferiore alla soglia, l\u2019uscita del neurone \u00e8 -1. Ma se l\u2019ingresso netto \u00e8 maggiore o uguale alla soglia, il neurone viene attivato e la sua uscita raggiunge un valore +1."
     },
     "324": {
         "domanda": "Come funziona, la funzione in una rete neurale durante il suo allenamento?",
         "risposte": [
-            "Durante l'allenamento, l'FN \u00e8 costretto a regolare i suoi parametri in modo che la sua risposta ai dati di input si avvicini alla risposta desiderata"
+            "Durante l\u2019allenamento, l\u2019FN \u00e8 costretto a regolare i suoi parametri in modo che la sua risposta ai dati di input si avvicini alla risposta desiderata",
+            "Durante l\u2019allenamento, l\u2019FN \u00e8 costretto a regolare i suoi parametri in modo che la sua risposta ai dati di input si allontani dalla risposta ottenuta"
         ],
-        "giusta": "Durante l'allenamento, l'FN \u00e8 costretto a regolare i suoi parametri in modo che la sua risposta ai dati di input si avvicini alla risposta desiderata"
+        "giusta": "Durante l\u2019allenamento, l\u2019FN \u00e8 costretto a regolare i suoi parametri in modo che la sua risposta ai dati di input si avvicini alla risposta desiderata"
     },
     "325": {
         "domanda": "Quale \u00e8 la differenza tra machine learning e deep learning?",
         "risposte": [
-            "Nel machine learning dobbiamo dare i dati gi\u00e0 estratti e raffinati al modello, nel deep learning i dati vengono estratti in automatico."
+            "Nel machine learning dobbiamo dare i dati gi\u00e0 estratti e raffinati al modello, nel deep learning i dati vengono estratti in automatico.",
+            "Nel deep learning dobbiamo dare i dati gi\u00e0 estratti e raffinati al modello, nel machine learning i dati vengono estratti in automatico."
         ],
         "giusta": "Nel machine learning dobbiamo dare i dati gi\u00e0 estratti e raffinati al modello, nel deep learning i dati vengono estratti in automatico."
     },
@@ -2743,37 +2998,42 @@
     "328": {
         "domanda": "Come funziona la logica Fuzzy (sfocata)?",
         "risposte": [
-            "\u2022 Basato sui principi della facolt\u00e0 di ragionamento approssimativo che gli umani usano di fronte all'ambiguit\u00e0 linguistica \u2022 Gli ingressi e le uscite di un sistema fuzzy sono precisi, solo il ragionamento \u00e8 approssimativo"
+            "\u2022 Basato sui principi della facolt\u00e0 di ragionamento approssimativo che gli umani usano di fronte all\u2019ambiguit\u00e0 linguistica \u2022 Gli ingressi e le uscite di un sistema fuzzy sono precisi, solo il ragionamento \u00e8 approssimativo",
+            "\u2022 Basato sui principi della facolt\u00e0 di ragionamento approssimativo che gli umani usano di fronte all\u2019ambiguit\u00e0 linguistica \u2022 Gli ingressi e le uscite di un sistema fuzzy sono approssimati, ma il ragionamento \u00e8 preciso"
         ],
-        "giusta": "\u2022 Basato sui principi della facolt\u00e0 di ragionamento approssimativo che gli umani usano di fronte all'ambiguit\u00e0 linguistica \u2022 Gli ingressi e le uscite di un sistema fuzzy sono precisi, solo il ragionamento \u00e8 approssimativo"
+        "giusta": "\u2022 Basato sui principi della facolt\u00e0 di ragionamento approssimativo che gli umani usano di fronte all\u2019ambiguit\u00e0 linguistica \u2022 Gli ingressi e le uscite di un sistema fuzzy sono precisi, solo il ragionamento \u00e8 approssimativo"
     },
     "329": {
-        "domanda": "Come vience calcolato L'output di un sistema fuzzy?",
+        "domanda": "Come vience calcolato L\u2019output di un sistema fuzzy?",
         "risposte": [
-            "viene calcolato usando: La tecnica MIN-MAX per combinare regole fuzzy e Il metodo centroide per la defuzzificazione."
+            "viene calcolato usando: La tecnica MIN-MAX per combinare regole fuzzy e Il metodo centroide per la defuzzificazione.",
+            "viene calcolato usando: La tecnica somma-pesata per combinare regole fuzzy e Il metodo centroide per la defuzzificazione."
         ],
         "giusta": "viene calcolato usando: La tecnica MIN-MAX per combinare regole fuzzy e Il metodo centroide per la defuzzificazione."
     },
     "330": {
         "domanda": "Su cosa \u00e8 basato un sistema RBS (Sistemi basati su regole)?",
         "risposte": [
-            "\u00c8 Basato sui principi della capacit\u00e0 di ragionamento logico degli esseri umani"
+            "\u00c8 Basato sui principi della capacit\u00e0 di ragionamento logico degli esseri umani",
+            "\u00c8 Basato sui principi della capacit\u00e0 di ordinamento dei computatori"
         ],
         "giusta": "\u00c8 Basato sui principi della capacit\u00e0 di ragionamento logico degli esseri umani"
     },
     "331": {
         "domanda": "Quali sono le componenti di una RBS?",
         "risposte": [
-            "Rulebase (regole di base), memoria di lavoro, interprete di regole"
+            "Rulebase (regole di base), memoria di lavoro, interprete di regole",
+            "Rulebase (regole di base), memoria cache, traduttore di regole"
         ],
         "giusta": "Rulebase (regole di base), memoria di lavoro, interprete di regole"
     },
     "332": {
         "domanda": "Cosa \u00e8 un agente software?",
         "risposte": [
-            "Un agente software \u00e8 un programma operativo a lungo termine la cui funzione pu\u00f2 essere descritta come esecuzione autonoma di compiti o tracciamento di obiettivi attraverso l'interazione con il suo ambiente."
+            "Un agente software \u00e8 un programma operativo a lungo termine la cui funzione pu\u00f2 essere descritta come esecuzione autonoma di compiti o tracciamento di obiettivi attraverso l\u2019interazione con il suo ambiente.",
+            "Un agente software \u00e8 un programma operativo a breve termine la cui funzione pu\u00f2 essere descritta come esecuzione manuale di compiti o tracciamento di obiettivi attraverso l\u2019interazione con il suo ambiente."
         ],
-        "giusta": "Un agente software \u00e8 un programma operativo a lungo termine la cui funzione pu\u00f2 essere descritta come esecuzione autonoma di compiti o tracciamento di obiettivi attraverso l'interazione con il suo ambiente."
+        "giusta": "Un agente software \u00e8 un programma operativo a lungo termine la cui funzione pu\u00f2 essere descritta come esecuzione autonoma di compiti o tracciamento di obiettivi attraverso l\u2019interazione con il suo ambiente."
     },
     "333": {
         "domanda": "Da cosa \u00e8 composto un agente software?",
@@ -2801,9 +3061,9 @@
     "336": {
         "domanda": "A cosa serve l\u2019inference engine (motore dell\u2019inferenza)?",
         "risposte": [
-            "\u00c8 Il cuore di un sistema neurale. Controlla il flusso di informazioni nel sistema e avvia l'inferenza sulla base di conoscenze neurali e assicura anche un ragionamento approssimativo."
+            "\u00c8 Il cuore di un sistema neurale. Controlla il flusso di informazioni nel sistema e avvia l\u2019inferenza sulla base di conoscenze neurali e assicura anche un ragionamento approssimativo."
         ],
-        "giusta": "\u00c8 Il cuore di un sistema neurale. Controlla il flusso di informazioni nel sistema e avvia l'inferenza sulla base di conoscenze neurali e assicura anche un ragionamento approssimativo."
+        "giusta": "\u00c8 Il cuore di un sistema neurale. Controlla il flusso di informazioni nel sistema e avvia l\u2019inferenza sulla base di conoscenze neurali e assicura anche un ragionamento approssimativo."
     },
     "337": {
         "domanda": "un sistema neuro-fuzzy, quali e quanti livelli ha?",
@@ -2823,23 +3083,29 @@
     "339": {
         "domanda": "Quale \u00e8 la giusta definizione di K-nearest neighbors",
         "risposte": [
-            "I vicini pi\u00f9 vicini a K di un record x sono punti dati che ha la k minima distanza da x"
+            "I vicini pi\u00f9 vicini a K di un record x sono punti dati che ha la k minima distanza da x",
+            "I k elementi vicini al record x definiscono le propriet\u00e0 di x"
         ],
         "giusta": "I vicini pi\u00f9 vicini a K di un record x sono punti dati che ha la k minima distanza da x"
     },
     "340": {
         "domanda": "Di quali problemi di classificazione soffre il KNN?",
         "risposte": [
-            "Problemi di ridimensionamento"
+            "Problemi di ridimensionamento",
+            "max pooling",
+            "Sottostima delle dimensioni"
         ],
         "giusta": "Problemi di ridimensionamento"
     },
     "341": {
-        "domanda": "In KNN, la distanza metrica booleana di quanto sar\u00e0?",
+        "domanda": "In KNN, la distanza metrica booleana \u00e8",
         "risposte": [
-            "In KNN, la distanza metrica booleana di quanto sar\u00e0?"
+            "La distanza di Hamming",
+            "La somamtoria del valore degli XOR",
+            "Una misura semplice ma efficace per valutare la somiglianza o dissimilarit\u00c3\u00a0 tra campioni",
+            "Tutte le precedenti"
         ],
-        "giusta": "In KNN, la distanza metrica booleana di quanto sar\u00e0?"
+        "giusta": "Una misura semplice ma efficace per valutare la somiglianza o dissimilarit\u00c3\u00a0 tra campioni"
     },
     "342": {
         "domanda": "In KNN con dimensione di set di dati ridotto, \u00e8 pi\u00f9 performante?",
@@ -2852,121 +3118,683 @@
     "343": {
         "domanda": "Quali livelli sfruttano gli algoritmi di deep learning?",
         "risposte": [
-            "usano vari livelli di unit\u00e0 non lineari a cascata dove ciascun livello successivo utilizza l'uscita del livello precedente come input per svolgere compiti di estrazione di caratteristiche trasformazione."
+            "usano vari livelli di unit\u00e0 non lineari a cascata dove ciascun livello successivo utilizza l\u2019uscita del livello precedente come input per svolgere compiti di estrazione di caratteristiche trasformazione.",
+            "Massimo 5",
+            "vari livelli a catena"
         ],
-        "giusta": "usano vari livelli di unit\u00e0 non lineari a cascata dove ciascun livello successivo utilizza l'uscita del livello precedente come input per svolgere compiti di estrazione di caratteristiche trasformazione."
+        "giusta": "usano vari livelli di unit\u00e0 non lineari a cascata dove ciascun livello successivo utilizza l\u2019uscita del livello precedente come input per svolgere compiti di estrazione di caratteristiche trasformazione."
     },
     "344": {
         "domanda": "Nel deep learning quali tipi di algoritmi possiamo avere?",
         "risposte": [
-            "Sia supervisionato che non supervisionato."
+            "Sia supervisionato che non supervisionato.",
+            "Supervisionato",
+            "Non supervisionato"
         ],
         "giusta": "Sia supervisionato che non supervisionato."
     },
     "345": {
         "domanda": "Nel deep learning i livelli sono espressi dal supervisore?",
         "risposte": [
-            "Falso, sono creati automaticamente dal sistema"
+            "Falso, sono creati automaticamente dal sistema",
+            "Vero, un supervisore si occupa di esprimerli",
+            "Falso, nei sistemi non-supervised non vengono espressi dal supervisore"
         ],
         "giusta": "Falso, sono creati automaticamente dal sistema"
     },
     "346": {
         "domanda": "Nel deep learning, da dove vengono derivate le caratteristiche di pi\u00f9 alto livello?",
         "risposte": [
-            "Vengono derivate da quelle di pi\u00f9 basso livello"
+            "Vengono derivate da quelle di pi\u00f9 basso livello",
+            "Vengono derivata da altre caratteristiche di alto livello",
+            "Vegnono derivate da modelli passati"
         ],
         "giusta": "Vengono derivate da quelle di pi\u00f9 basso livello"
     },
     "347": {
         "domanda": "Nel deep learning I livelli multipli corrispondono a differenti livelli di astrazione?",
         "risposte": [
-            "Vero e formano una gerarchia di concetti."
+            "Vero e formano una gerarchia di concetti.",
+            "Falso",
+            "Vero e sono tutti sullo stesso piano nella gerarchia di concetti"
         ],
         "giusta": "Vero e formano una gerarchia di concetti."
     },
-    "totali": 347,
+    "348": {
+        "domanda": "Rispetto ad una generica applicazione biometrica per identificazione o screening, analizzando i valori delle Cumulative Match Characteristic (CMC) di diversi produttori, su quale sistema conviene probabilmente orientare la scelta?",
+        "risposte": [
+            "Sistema C: CMC(1) = 32%, CMC(10) = 90%",
+            "Sistema B: CMC(1) = 28%, CMC(30) = 99.8%",
+            "Sistema D: CMC(1) = 27%, CMC(10) = 99.5%",
+            "Sistema A: CMC(1) = 30%, CMC(30) = 90%"
+        ],
+        "giusta": "Sistema D: CMC(1) = 27%, CMC(10) = 99.5%"
+    },
+    "349": {
+        "domanda": "Rispetto alla ISO/IEC 19795 Biometric Performance Testing and Reporting, quale delle seguenti strategia di valutazione corrisponde alla strategia chiamata \"Technology\"?",
+        "risposte": [
+            "Creare delle stanze attrezzate dove vengono alloggiate diverse tecnologie che potrebbero essere impiegate nella applicazione in esame che saranno provate con un ristretto gruppo di volontari per verificare le soluzioni pi\u00c3\u00b9 adatte.",
+            "Creare un appalto rivolto ai diversi produttori che una volta recepiti i requisiti tecnologici esprimeranno le migliori offerte economiche che verranno valutate in una seconda fase della selezione",
+            "Usare database pubblici di sample biometrici per effettuare test algoritmici",
+            "Un sistema biometrico completo e tarato direttamente installato nella applicazione finale e usato con una porzione di utenti che accettano di provare il sistema dietro compilazione di un apposito modulo informativo"
+        ],
+        "giusta": "Usare database pubblici di sample biometrici per effettuare test algoritmici"
+    },
+    "350": {
+        "domanda": "Nei sistemi ottici per l'acquisizione biometrica \u00c3\u00a8 possibile trovare:",
+        "risposte": [
+            "aberrazione sferica",
+            "aberrazione cromatica",
+            "entrambe le aberrazioni",
+            "nessuna delle altre opzioni in quanto sono problemi riscontrabili nelle ottiche fotografiche e non di competenza dei sistemi biometrici"
+        ],
+        "giusta": "entrambe le aberrazioni"
+    },
+    "351": {
+        "domanda": "La distribuzione delle distanze di Hamming di comparazioni di IRISCODE sono simmetriche",
+        "risposte": [
+            "se i test vengono eseguiti in condizioni ottimali in laboratorio con utenti allenati alla acquisizione.",
+            "se vengono considerati degli shift dei bit fra le stringhe e viene selezionata la minore distanza ottenuta.",
+            "se le stringhe sono lunghe almeno 249 bit.",
+            "nessuna delle altre risposte"
+        ],
+        "giusta": "se le stringhe sono lunghe almeno 249 bit."
+    },
+    "352": {
+        "domanda": "Rispetto al contesto discusso a lezione, qual \u00c3\u00a8 la tecnica che produce immagini sintetiche create utilizzando due input, in cui un criminale combina caratteristiche da un volto, come il movimento, con l'aspetto di un altro volto per creare un nuovo output video sintetico usando modelli anche tridimensionali. L'output presenta le caratteristiche dei tratti facciali dell'individuo genuino",
+        "risposte": [
+            "Fully-generated images",
+            "Face swaps",
+            "PCA-based image",
+            "Nessun delle altre opzioni"
+        ],
+        "giusta": "Face swaps"
+    },
+    "353": {
+        "domanda": "Un sistema biometrico utilizza due immagini di due impronte digitali per estrarre le Minutiae. Successivamente, queste informazioni vengono combinate per eseguire il riconoscimento. In base a esperimenti e confronti adeguati, quale risultato ci si pu\u00c3\u00b2 aspettare in termini di accuratezza rispetto ad altre configurazioni?",
+        "risposte": [
+            "Buona accuratezza, maggiore rispetto ad usare tre impronte diverse e combinando le informazioni estratte visto che oltre due impronte non si migliora ulteriormente l'accuratezza come dimostrato nelle applicazioni commerciali.",
+            "Buona accuratezza, maggiore rispetto ad usare una sola impronta ma estraendo le Minutiae e il Cylinder Code e combinando le informazioni estratte",
+            "Buona accuratezza, minore rispetto ad usare una sola impronta ma estraendo le Minutiae e il Cylinder Code e combinando le informazioni estratte",
+            "Nessuna delle altre opzioni"
+        ],
+        "giusta": "Nessuna delle altre opzioni"
+    },
+    "354": {
+        "domanda": "Nella curva DET di un sistema biometrico in quale regione si trovano le applicazioni forensi quando nelle fasi iniziali dalle evidenze raccolte si cerca di rintracciare eventuali persone coinvolte?",
+        "risposte": [
+            "Basso FNMR, alto FMR",
+            "La curva DET stima parametri diversi da quelli che servono per verificare se il sistema \u00c3\u00a8 adatto per applicazioni di forensi",
+            "Medio FNMR, medio FMR",
+            "Alto FNMR, basso FMR"
+        ],
+        "giusta": "Basso FNMR, alto FMR"
+    },
+    "355": {
+        "domanda": "Secondo il modello discusso a lezione di Paul Ekman della classificazione delle emozioni, esso identifica, oltre allo stato neutro, quante emozioni principali (nota: se le emozioni fossero NEUTRA, EMOZIONE1, EMOZIONE2?, la risposta sarebbe 2)?",
+        "risposte": [
+            "7",
+            "4",
+            "6",
+            "5",
+            "8",
+            "9"
+        ],
+        "giusta": "6"
+    },
+    "356": {
+        "domanda": "Nel contesto della discussione fatta in classe, immaginando di avere a disposizione degli istogrammi rappresentanti le frequenze dello score match dei genuini e degli impostori ottenuti attraverso un insieme di N volontari con M sample per individuo, tenendo conto della cardinalit\u00c3\u00a0 tipica dei confronti possibili in questo tipo di valutazioni, quale dei seguenti casi \u00c3\u00a8 pi\u00c3\u00b9 probabile che sia vero per un valore tipico della soglia T disposta a separare i genuini dagli impostori?",
+        "risposte": [
+            "Il FNMR(T) ha sicuramente un valore maggiore a FMR(T), indipendentemente dal numero di confronti possibili",
+            "Il FNMR(T) tende ad avere un intervallo di confidenza pi\u00c3\u00b9 largo rispetto a FMR(T) in quanto le comparazioni possibili fra genuini sono minori di quelle degli impostori",
+            "Il FNMR(T) tende ad avere n intervallo di confidenza pi\u00c3\u00b9 stretto rispetto a FMR(T) in quanto le comparazioni possibili fra genuini sono minori di quelle degli impostori",
+            "Il FNMR(T) ha sicuramente un valore inferiore a FMR(T), indipendentemente dal numero di confronti possibili"
+        ],
+        "giusta": "Il FNMR(T) tende ad avere un intervallo di confidenza pi\u00c3\u00b9 largo rispetto a FMR(T) in quanto le comparazioni possibili fra genuini sono minori di quelle degli impostori"
+    },
+    "357": {
+        "domanda": "Nell'ambito dell'apprendimento delle reti Deep in applicazioni biometriche, quale tecnica di difesa \u00c3\u00a8 nota per migliorare la robustezza di un modello di machine learning agli attacchi avversari?",
+        "risposte": [
+            "Addestramento esclusivamente su dataset molto ampi.",
+            "Aumentare il numero di parametri nel modello.",
+            "Aumentare il numero di strati nascosti nel modello.",
+            "Addestramento avversario, correggendo le vulnerabilit\u00c3\u00a0 inserendo nei dati di apprendimento esempi avversari."
+        ],
+        "giusta": "Addestramento avversario, correggendo le vulnerabilit\u00c3\u00a0 inserendo nei dati di apprendimento esempi avversari."
+    },
+    "358": {
+        "domanda": "Rispetto al contesto discusso a lezione sui deepfake, le tecniche di voice cloning sono da considerarsi",
+        "risposte": [
+            "Non sono tecniche applicabili in contesti di sicurezza ma principalmente nel miglioramento della voce in tecniche multimediale",
+            "Tecniche illecite",
+            "Tecniche che possono essere lecite o diventare illecite in base al loro utilizzo",
+            "Nessuna delle altre opzioni"
+        ],
+        "giusta": "Tecniche che possono essere lecite o diventare illecite in base al loro utilizzo"
+    },
+    "359": {
+        "domanda": "Nella tassonomia dei tipi di attacco di un sistema biometrico quali di queste tecniche \u00c3\u00a8 considerata un attacco diretto al sistema?",
+        "risposte": [
+            "Cavallo di Troia.",
+            "Override della risposta di autenticazione.",
+            "Spoofing.",
+            "Nessuna della altre opzioni.",
+            "Sostituzione di un template nel DB del sistema.",
+            "Tutte le altre opzioni (tranne \"Nessuna delle altre opzioni\")."
+        ],
+        "giusta": "Spoofing."
+    },
+    "360": {
+        "domanda": "Relativo alla tassonomia degli attacchi avversari per i sistemi biometrici discussa a lezione quale delle seguenti tipologie \u00c3\u00a8 definita nel seguente modo: \"Attacchi che modificano i dati di addestramento per aggiungere un backdoor. Per esempio, modelli di addestramento impercettibili creano backdoor che controllano i modelli\"?",
+        "risposte": [
+            "Avvelenamento",
+            "Nessuna delle altre opzioni",
+            "Evasione",
+            "Inferenza",
+            "Estrazione"
+        ],
+        "giusta": "Avvelenamento"
+    },
+    "361": {
+        "domanda": "Rispetto alla tassonomia degli attacchi avversari per i sistemi biometrici discussa a lezione quale delle seguenti tipologie \u00c3\u00a8 definita nel seguente modo \"Attacchi che ottengono informazioni su dati privati. Ad esempio, un attacco pu\u00c3\u00b2 derivare propriet\u00c3\u00a0 dei dati di addestramento del modello fino a identificare singole voci di dati\"?",
+        "risposte": [
+            "Avvelenamento",
+            "Inferenza",
+            "Nessuna delle altre opzioni",
+            "Evasione",
+            "Estrazione"
+        ],
+        "giusta": "Inferenza"
+    },
+    "362": {
+        "domanda": "Il contesto di applicazione della Cumulative Match Characteristic si riferisce a",
+        "risposte": [
+            "Identificazione",
+            "Verifica",
+            "Nessuna delle altre opzioni"
+        ],
+        "giusta": "Identificazione"
+    },
+    "363": {
+        "domanda": "Negli approcci di deeplearning applicati alla biometria basata sulle immagini con CNN tipicamente",
+        "risposte": [
+            "Si preferiscono reti di grandi dimensioni con un numero elevato di strati",
+            "Si preferiscono reti di piccole dimensioni con un numero limitato di strati",
+            "Si preferiscono reti di medie dimensioni per evitare l'overfitting",
+            "Nessuna delle altre opzioni"
+        ],
+        "giusta": "Si preferiscono reti di grandi dimensioni con un numero elevato di strati"
+    },
+    "364": {
+        "domanda": "In applicazioni biometriche, i modelli di deeplearning non risentono particolarmente della dimensione del dataset di apprendimento e possono essere applicati direttamente a piccoli e grandi dataset.",
+        "risposte": [
+            "Vero in quanto le reti CNN superano questo problema",
+            "Falso",
+            "Vero in quanto gli autoencoders superano questo problema"
+        ],
+        "giusta": "Falso"
+    },
+    "365": {
+        "domanda": "L'applicazione da risolvere richiede la valutazione della distribuzione degli impostori in una regione dove la frequenza degli errori \u00c3\u00a8 10-7 (1 parte su 10 milioni). Nel contesto della discussione fatta in classe, quale delle seguenti opzioni \u00c3\u00a8 considerata pi\u00c3\u00b9 corretta?",
+        "risposte": [
+            "Stimare la distribuzione usando l'approccio basato sul calcolo delle probabilit\u00c3\u00a0 utilizzando volontari con N=100",
+            "Stimare la distribuzione usando le curve presenti in letteratura per sistemi equivalenti o nel datasheet del produttore nella regione di funzionamento richiesta",
+            "Stimare la distribuzione usando l'approccio basato sul calcolo delle probabilit\u00c3\u00a0 utilizzando volontari con N=500",
+            "Stimare la distribuzione usando l'approccio basato sulla inferenza statistica utilizzando volontari con N=500",
+            "Stimare la distribuzione usando l'approccio basato sulla inferenza statistica utilizzando volontari con N=300"
+        ],
+        "giusta": "Stimare la distribuzione usando le curve presenti in letteratura per sistemi equivalenti o nel datasheet del produttore nella regione di funzionamento richiesta"
+    },
+	"366": {
+        "domanda": "In biometria, il concetto di coorte viene utilizzato per migliorare il funzionamento di una sistema biometrico. Quale delle seguenti affermazioni \u00e8 corretta?",
+        "risposte": [
+            "L'uso della tecnica della coorte in biometria \u00e8 considerato come NON privacy compliant perch\u00e8 \u00e8 necessario memorizzare pi\u00f9 informazioni e pi\u00f9 immagini dei tratti biometrici degli utenti da verificare rispetto alla tecnica classica.",
+            "Non vi \u00e8 nessuna particolare considerazione di privacy legata all'uso della tecnica in oggetto visto che si tratta solo di una normalizzazione degli score rispetto al valore massimo trovato nel sistema con gli altri utenti.",
+            "L'uso della tecnica della coorte in biometria \u00e8 considerato come privacy compliant perch\u00e8 si possono utilizzare dei database gi\u00c3\u00a0 pubblici di immagini esterni di utenti di riferimento per la sua esecuzione",
+            "L'uso della tecnica della coorte in biometria \u00e8 considerato come NON privacy compliant perch\u00e8 \u00e8 necessario utilizzare dei database pubblici di immagini esterni di utenti di riferimento"
+        ],
+        "giusta": "L'uso della tecnica della coorte in biometria \u00e8 considerato come privacy compliant perch\u00e8 si possono utilizzare dei database gi\u00c3\u00a0 pubblici di immagini esterni di utenti di riferimento per la sua esecuzione"
+    },
+	"367": {
+        "domanda": "Rispetto al contesto discusso a lezione, quale delle seguente opzioni \u00e8 valida? L'uso delle tecniche per la creazione di Deepfake in biometria in impieghi leciti \u00e8 possibile per",
+        "risposte": [
+            "Eseguire test per metodi di antispoofing",
+            "La creazione di nuovi individui ed eseguire test per metodi di antispoofing",
+            "La creazione di sample di nuovi individui",
+            "Nessuna delle altre opzioni"
+        ],
+        "giusta": "La creazione di nuovi individui ed eseguire test per metodi di antispoofing"
+    },
+    "368": {
+        "domanda": "La introduzione di un rumore in un ambiente o in una immagine al fine di creare un generico comportamento erroneo o una generica previsione errata in un modello di machine learning, \u00e8 considerato come un",
+        "risposte": [
+            "Targeted Adversarial attack",
+            "Nessuna delle altre opzioni, questa tecnica non pu\u00f2 produrre alterazioni del comportamento del modello di machine learning in quanto sono stati allenati a resistere al rumore ambientale.",
+            "Challange-response attack",
+            "Non-targeted Adversarial Attack"
+        ],
+        "giusta": "Non-targeted Adversarial Attack"
+    },
+    "369": {
+        "domanda": " le applicazioni ad altissimo livello di sicurezza dove si posizionano sulla DET?",
+        "risposte": [
+            "medio FNMR e medio FMR",
+            "alto FNMR e basso FMR",
+            "basso FNMR e alto FMR"
+        ],
+        "giusta": "alto FNMR e basso FMR"
+    },
+    "370": {
+        "domanda": "le applicazioni forensi dove si posizionano sulla DET?",
+        "risposte": [
+            "medio FNMR e medio FMR",
+            "alto FNMR e basso FMR",
+            "basso FNMR e alto FMR"
+        ],
+        "giusta": "basso FNMR e alto FMR"
+    },
+    "371": {
+        "domanda": "la tecnica del leave oneout (si intende la loo)",
+        "risposte": [
+            "\u00e8 quella che provoca il maggior numero di permutazione dei dati (la risposta era qualcosa del genere)"
+        ],
+        "giusta": "\u00e8 quella che provoca il maggior numero di permutazione dei dati (la risposta era qualcosa del genere)"
+    },
+    "372": {
+        "domanda": "la dimensione del db di train influenza il modello (la risposta a questa domanda credo di averla inserita correttamente)",
+        "risposte": [
+            "no perch\u00e8 le ccn hanno superato questo problema",
+            "no grazie agli auto-encoders",
+            "falso"
+        ],
+        "giusta": "falso"
+	},
+    "totali": 372,
     "fatte": [
-        41,
-        204,
-        119,
-        213,
-        141,
-        290,
-        246,
-        182,
-        192,
-        256,
-        168,
-        73,
-        53,
-        176,
-        82,
-        328,
-        131,
-        116,
-        7,
-        89,
-        196,
-        277,
-        6,
-        255,
-        220,
-        335,
-        12,
-        338,
-        114,
-        210,
-        86,
-        69,
-        217,
-        311,
-        275,
-        71,
-        31,
-        285,
-        231,
-        94,
-        212,
-        296,
-        299,
-        95,
-        102,
+        92,
+        132,
         135,
-        155,
+        289,
+        21,
+        21,
+        74,
         241,
-        133,
-        22,
-        283,
-        219,
-        306,
+        241,
+        166,
+        361,
         218,
-        266,
-        235,
-        265,
-        123,
-        257,
-        55,
-        85,
-        271,
-        149,
-        201,
-        304,
-        264,
-        300,
-        346,
-        179,
-        13,
-        251,
-        138,
-        315,
-        198,
-        10,
-        39,
-        34,
-        278,
-        152,
+        124,
+        29,
+        233,
+        184,
+        101,
+        78,
+        87,
+        119,
+        119,
+        65,
+        170,
+        290,
+        290,
+        290,
+        94,
+        344,
+        97,
+        97,
+        169,
+        197,
+        197,
+        8,
+        294,
+        28,
+        32,
+        117,
+        117,
+        68,
+        24,
+        76,
+        80,
+        80,
+        259,
+        176,
+        176,
+        64,
+        64,
+        243,
+        243,
+        62,
+        9,
+        340,
+        340,
+        329,
+        329,
+        204,
+        204,
         25,
+        1,
+        213,
+        213,
+        268,
+        128,
+        304,
+        334,
+        44,
+        44,
+        208,
+        159,
+        159,
+        206,
+        325,
+        96,
+        96,
+        26,
+        126,
+        126,
+        265,
+        315,
+        19,
+        54,
+        70,
+        141,
+        141,
+        202,
+        104,
+        137,
+        137,
+        103,
+        35,
+        217,
+        130,
+        318,
+        263,
+        45,
+        298,
+        157,
+        99,
+        99,
+        277,
+        111,
+        209,
+        209,
+        343,
+        345,
+        144,
+        144,
+        33,
+        33,
+        160,
+        11,
+        207,
+        77,
+        313,
+        36,
+        280,
+        240,
+        158,
+        360,
+        360,
+        85,
+        357,
+        43,
+        245,
+        245,
+        302,
+        302,
+        231,
+        228,
+        250,
+        201,
+        139,
+        38,
+        38,
+        229,
+        229,
+        151,
+        284,
+        284,
+        66,
+        353,
+        276,
+        359,
+        125,
+        338,
+        46,
+        193,
+        105,
+        346,
+        174,
+        69,
+        69,
+        297,
+        106,
+        79,
+        152,
+        214,
+        12,
+        326,
+        180,
+        180,
+        362,
+        191,
+        121,
+        281,
+        185,
+        211,
+        145,
+        127,
+        127,
+        164,
+        227,
+        134,
+        238,
+        148,
+        244,
+        220,
+        93,
+        352,
+        254,
+        274,
+        147,
+        147,
+        336,
+        194,
+        194,
+        91,
+        136,
+        226,
+        88,
+        138,
+        347,
+        303,
+        149,
+        16,
+        351,
+        351,
+        15,
+        7,
+        275,
+        308,
+        216,
+        112,
+        49,
+        333,
+        272,
+        272,
+        203,
+        203,
+        183,
+        183,
+        107,
+        278,
+        278,
+        47,
+        342,
+        309,
+        309,
+        212,
+        82,
+        31,
+        10,
+        131,
+        253,
+        256,
+        95,
+        118,
+        55,
+        90,
+        2,
+        51,
+        51,
+        230,
+        230,
+        283,
+        59,
+        267,
+        267,
+        356,
+        356,
+        341,
+        75,
+        257,
+        133,
+        133,
+        335,
+        322,
+        200,
+        365,
+        365,
+        279,
+        363,
+        328,
+        249,
+        5,
+        146,
+        120,
+        50,
+        100,
+        155,
+        155,
+        320,
+        321,
+        168,
+        305,
+        348,
+        239,
+        235,
+        89,
+        182,
+        312,
+        300,
+        288,
+        285,
+        18,
+        261,
+        115,
+        67,
+        67,
+        186,
+        296,
+        327,
+        273,
+        248,
+        4,
+        171,
+        171,
+        6,
+        287,
+        287,
+        282,
+        142,
+        142,
+        39,
+        14,
+        179,
+        123,
+        22,
+        143,
+        317,
+        189,
+        291,
+        232,
+        114,
+        57,
+        30,
+        199,
+        199,
+        27,
+        163,
+        13,
+        364,
+        129,
+        129,
+        306,
+        314,
+        215,
+        286,
+        172,
+        20,
+        205,
+        234,
+        173,
+        162,
+        293,
+        258,
+        113,
+        81,
+        81,
+        198,
+        34,
+        190,
+        260,
+        260,
+        23,
+        23,
+        354,
+        354,
+        330,
+        219,
+        242,
+        109,
+        192,
+        316,
+        52,
+        167,
+        63,
+        187,
+        116,
+        84,
+        165,
+        150,
+        356,
+        178,
+        255,
+        140,
+        40,
+        349,
+        301,
+        350,
+        251,
+        251,
+        175,
+        175,
+        153,
+        307,
+        331,
+        271,
+        271,
+        271,
+        210,
+        83,
+        223,
         269,
-        162
+        310,
+        292,
+        53,
+        270,
+        225,
+        237,
+        17,
+        17,
+        252
     ]
 }
